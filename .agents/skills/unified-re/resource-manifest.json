@@ -1,0 +1,2546 @@
+[
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/AGENTS.md",
+    "sha256": "b9c820457f8a7e40b81c1765fb45fe3de7e4862304b42e641003e7bc9ce6ae8b"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/CTF-Sandbox-Orchestrator/LICENSE",
+    "sha256": "230184f60bae2feaf244f10a8bac053c8ff33a183bcc365b4d8b876d2b7f4809"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/CTF-Sandbox-Orchestrator/README.md",
+    "sha256": "ee0276dc965dca47deb62e0fd2eac13232cfdb3376addb34907105f7f10eb7fd"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/README_AI.md",
+    "sha256": "f0e2ad824234b3eb89196b3b202fbb075b5e006801443d22e4e8dd3a9be8d4c8"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/RULES.md",
+    "sha256": "83132f6a77ac86949b4927c7794c3439a0c1fc325be9f40a68ef85c6da427918"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/RULES_zh.md",
+    "sha256": "896e86d5c04356de18380c88bbcaba399b705a5c13edbdf5a9b852c4e9277e8f"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/docs/ARCHITECTURE.md",
+    "sha256": "4e17341b8281902fed3b610822c825f9a4c236655310a9f98b8fee323f7b32ad"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/docs/COMMUNITY-ISSUE-TRIAGE.md",
+    "sha256": "803af0812d782aa4d1480ce9b9622ba8138367243dcb78067438917c4d45ec5a"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/docs/OVERVIEW.md",
+    "sha256": "48c147bc8f0a932296525482c4a81da8254b394c227d8d75be6529eb8bdc78b9"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/docs/OVERVIEW_zh.md",
+    "sha256": "695cda92d81dc7c1e3eaf292ed793ddf9c36cbb294fb1a8b2c2e08f0529379cf"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/docs/PACKAGE-SECURITY-AUDIT.md",
+    "sha256": "0d2a97f7ca463132fc3922f0f42ecadee453c527cd300f4ea5ac6d0b27064419"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/docs/PLATFORMS.md",
+    "sha256": "80231f24453bcb5d60a46927830677b03eb49f3920340f87eba18110b204a42d"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/docs/QUICKSTART_zh.md",
+    "sha256": "bcd6e52179e9691578afa2149dd4e12664a41bba290d489c5cae40ec02af0614"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/docs/RELEASE-CHECKLIST.md",
+    "sha256": "3951ff10f24ac1a5024a91aacfd10c628b489ad2c9043dc72646f31cf6e2ac35"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/docs/RELEASE_NOTES_v1.0.0.md",
+    "sha256": "f7c96ea0158801a4136d4c7f30e3ef5162aa5690a0d590945ff6c4a6655f0416"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/docs/SECURITY-REVIEW-2026-09-03.md",
+    "sha256": "7b9b3ef5dceec1dbf7bd00791e5e154968e01af6ee20745397ecd94b7a836863"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/docs/UV-AND-DOWNLOAD-SECURITY.md",
+    "sha256": "a6286aa217c3d9188f234709f141ad426dde76f29ed92c602b6c7c2f8c353648"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/docs/UV-AND-DOWNLOAD-SECURITY_zh.md",
+    "sha256": "3999b76c0d6b714d0173de12cb398e42ae57b8b28f94abafe4c287ab727eb90d"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/docs/assets/sponsors/atlas-cloud.svg",
+    "sha256": "47cc64ab00961ab254fe47c82ed755346776297da419ca76afde7b5879bfd0b9"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/docs/assets/sponsors/ucloud-astraflow.png",
+    "sha256": "48711b1fe1f109421f71b1ad15b99a7c638b2c064bb6a8af204acf8ccba33304"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/docs/assets/star-history.svg",
+    "sha256": "08fa3cb40c7fdc92ae3be0a3d583546fe59c857a1cd50c0ad59bb1fecb70d3f8"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/docs/plans/2026-09-21-pwntools-kali-discovery.md",
+    "sha256": "195674a986d60d9de5df1474aa94c37fd52272f8fd7a0eecda71a93396c8efb4"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/docs/platforms/linux.md",
+    "sha256": "cbf4cb820e6a748a06b9d1dc5e0c752c4ce5523a0ef32ebe37ece3c889aaa6eb"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/docs/platforms/macos.md",
+    "sha256": "e7008004ea8c145623474163180a17245ce97ac769c5d3b82ffb376635360e97"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/docs/reviews/2026-08-08-pr-43-37-36-23-integration-review.md",
+    "sha256": "5467052affdbefe45e12bbf32e9bcf3bd0fcb736f44a043243b226e6317b2004"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/docs/reviews/2026-08-08-pr-value-review.md",
+    "sha256": "36043e9f1122b2fd091216e05ce5aad647838c8735feb58106fba83660c2af75"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/docs/superpowers/specs/2026-09-21-pwntools-kali-discovery-design.md",
+    "sha256": "9eb40cf715cc9433f31b919cdee2fccf3188f778aeed85a20e09497267c85096"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/scripts/refresh-tool-index.ps1",
+    "sha256": "b236e376a976847076bc7e705c1c4ee82c56b429249d25e5ba7d6fabb7bf573e"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/CONTRIBUTING.md",
+    "sha256": "06d769624b261ae54e5dfd3eb72b38d64c021ad0dffebaa94ac46777abbd8ef9"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/INDEX.md",
+    "sha256": "c1e6c64b891fa8cb306b892adbc8853d4fe3fa32850eebd319202a152ed1bf3d"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/MASTER-ROUTING.md",
+    "sha256": "d765ac894e6e03cf83bcdbc5506ad96679096f5adb7f13f164aa07ab6c6f39f1"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/SKILL.md",
+    "sha256": "bdc1b4cf295089399ce007b03652ab2349c0b379d8be3edfc01dac16e027755e"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/api-security/SKILL.md",
+    "sha256": "ba41791abf3b05daac8726acbba996445be30cf718a756cd8fb99cb27d9861e9"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/api-security/references/jwt-oauth-testing.md",
+    "sha256": "b9408e4026cbce626f340e4036dee66a1c8122a29473adbfffd1de65774b722f"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/api-security/references/rest-graphql-testing.md",
+    "sha256": "0bb12f409e74104f89f96f53c57ca246677c447fe33e7ff887f0bae6dba8f7ea"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/apk-reverse/SKILL.md",
+    "sha256": "9b23baecde8396b0d0b2f599e4ee1b9ec5663b97bae335624626620635fcacd3"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/apk-reverse/references/android-advanced.md",
+    "sha256": "288ee482c6e208f7d395862efb22a3f49cca89fd0de44be65e913416bed921f4"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/apk-reverse/references/apk-security-checklist.md",
+    "sha256": "025f8f710b16a4537ba6abc76b33353c863d101d2f395a10837b117c2fb4979c"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/apk-reverse/references/frida-bypass-kit.md",
+    "sha256": "29c0ac239752b56f827524ae72ede7b2fc3bcb2cdf92069122d650969e5378e2"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/apk-reverse/references/frida-cookbook.md",
+    "sha256": "4cc585cc34d94160c3e0efddc923b63c37553e14a74332471fa9dfe90a3fc2a0"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/apk-reverse/scripts/decode.ps1",
+    "sha256": "83a03a4ca783a206f53b07640d0c9ad26054e0d77c6dacdaf4bbeefc64ca69d7"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/apk-reverse/scripts/decode.sh",
+    "sha256": "2fb6d214704dcb5e90f6b28024f1518f67164efa877eb3a57adb2345546d764a"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/apk-reverse/scripts/frida-run.ps1",
+    "sha256": "89ee51766a03fc2765e04c57942f9b198ed32ca3d3c4803f585787888f0e8e4a"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/apk-reverse/scripts/frida-run.sh",
+    "sha256": "5c688817ae51a78760dfe256a9a4991166915b039b601407e40e3b4582c2a879"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/apk-reverse/scripts/manifest-summary.ps1",
+    "sha256": "144b44d7231cee479b0868967ce7f17d5d9b9f076894a4ae3ecd2acdaa6a2c13"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/apk-reverse/scripts/rebuild-sign-install.ps1",
+    "sha256": "c6016aa6d156005c3196c9dc763f6abf31b94e35ba319c40674a66a8ad752f6b"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/apk-reverse/scripts/rebuild-sign-install.sh",
+    "sha256": "6f403d76bc080ef136962ef09b36576467f8041ca4ef441ff9417b210f6c2bb7"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/attack-chain/SKILL.md",
+    "sha256": "96c94609fdd5c7d9ce552128db50316ca800ba27c202e6619380cd6494a09d37"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/attack-chain/references/attack-playbooks.md",
+    "sha256": "0b9e70f95716ad170df35de90e00bee91b467cff8f07bdbaafe5d65dc7368f7a"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/attack-chain/references/evasion-cheatsheet.md",
+    "sha256": "d39e5acad16732f5e9f4436c37afc2f3882aded82664694cffd60cc15eb4d247"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/attack-chain/references/lifecycle-checklist.md",
+    "sha256": "9a411e2f1037670cf1c3efd5ab2bb608265092d54be296effa7e0dc23bdab7e5"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/binary-diff/SKILL.md",
+    "sha256": "62254d63c40bfb15f00d3a30821714657f6742e4e787d8e6ef8a7e98e2a950f6"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/binary-diff/references/prompt-template.md",
+    "sha256": "dd53b5a19b0722983332a88422528f4820c33aa05fce0fdfe168b05586f8ba2c"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/binary-ninja-reverse/SKILL.md",
+    "sha256": "257823a0e25b902ee35b8d0760bb20767af761ebbb6a8ab2e8af4b873773845c"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/binary-ninja-reverse/agents/openai.yaml",
+    "sha256": "67e23524d2c9458cfa5dbacd401cef2d22a0225891342f2c6dc4d58521b73d40"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/browser-automation/SKILL.md",
+    "sha256": "c19a9293ea15be66cab95ef2f3e622d5becda2bb752b8101610f5feee260fba3"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/browser-automation/references/playwright-cheatsheet.md",
+    "sha256": "b4d94649b4e18b54a9cbc3d89e59fe412ac1acc039e8070a7b47e4f8e1209163"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/browser-automation/scripts/setup.ps1",
+    "sha256": "fc605daa0b2c9d94bd6a2fe53d2914b15ddf6ee879c25c80202c4ad679fd47b5"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/browser-extension-reverse/SKILL.md",
+    "sha256": "908c0bbcd53cdda04bcfd49cc610d049fdf58f0d9c9b70b65415e1f6730bc565"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/browser-extension-reverse/references/extension-analysis.md",
+    "sha256": "de083cc52478d265cbc19462a67c17ae7932d561dce345158bc97eddc3c2b8b5"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/case-review/SKILL.md",
+    "sha256": "da9ca51e03f1b1fe3728e74cf97515c1c51b21ed96a98b834d6b3c35558a3b58"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/case-review/scripts/review_case.py",
+    "sha256": "aace3fad8514ef24aa1f1a99fed83d58eb531f8e876051b36f284e7d3704158d"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/case-review/tests/test_review_case.py",
+    "sha256": "0cd21ce02f5d32834aa57d0203c1a47cb7c5360a7b7a13185d579bde36178d84"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/cloud-k8s/SKILL.md",
+    "sha256": "86fdb2c06275b3acf501ec438a8d00f1737f5f831942e80b841bec007a5d5585"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/cloud-k8s/references/k8s-cloud-checklist.md",
+    "sha256": "6fbaccfecc6c13e617c7916a8c923b75b7c9f38acdade1d071323bde272df8a8"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/code-audit/SKILL.md",
+    "sha256": "122dafd8682807da6ea11c81be18cc5f02afad65d306cd7aee117191e6a3ca0b"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/code-audit/references/sast-review-checklist.md",
+    "sha256": "3d603986a782f6ebdcb899d32bce2e668d06c19745df7a45e8fa5ccee6cf7d09"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/config/routing.json",
+    "sha256": "8a5795f38003958e17038ea7bc28970cf478eabefb363c0be517915f0ef7b815"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/ctf-sandbox/SKILL.md",
+    "sha256": "8aac859b40eb9b4e38c4ddfef38d3422656485d9edc34a54ca6f485cc8bad1b0"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/database-security/SKILL.md",
+    "sha256": "b052ce09f400b8ea1fc4898d2c1c0e6c52ac5429d5ccd11518a057ce2ebf086a"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/database-security/references/db-misconfig-checklist.md",
+    "sha256": "02d2ed1d19c906986c0860cb9830fa5642a686b0f0961363967e7d3c0ea8175b"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/diagram-generator/README.md",
+    "sha256": "924b8e28ea766fae7a52ff0d7084e1188c545fd63d404663d2e47ba96782d19f"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/diagram-generator/SKILL.md",
+    "sha256": "ed02e5d9f08db6c8648d8311bab7a45af14751b5e594a9b37240878dd72de0c7"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/diagram-generator/agents/openai.yaml",
+    "sha256": "1b519dce887d18aa8524ca568cbf64ae84c236ea568ae7c3e2cb353e6512ac7a"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/diagram-generator/references/diagram-patterns.md",
+    "sha256": "36b86ecd9fd3f95b5ec46465be6d99939902945cd8075b1cb1512897b75f9bb4"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/diagram-generator/scripts/create_sample_diagrams.py",
+    "sha256": "22f2165f76e7da82e696ac645c563b06e84a8221b53507eadb1deef98faff37e"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/diagram-generator/scripts/render_diagram.py",
+    "sha256": "f3a2eee8b9f0f811ba0ee1026449ea563333fdd006554271cb9c83338c15c730"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/digital-forensics/SKILL.md",
+    "sha256": "e07f637660fc59b2ddb6ebe3c4f8e0c9f6df9ed16990ed81d5f5e8212837dd0d"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/digital-forensics/references/forensics-triage.md",
+    "sha256": "a426cc4c063b9a670c9f4bfb9391c9eaf5f3408c559aebcce57b6fc094afedc7"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/docs-generator/SKILL.md",
+    "sha256": "1ceb99a41426a91e69521a6232d44691f4cb299b0e1bda2390ef48a3a047db85"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/docs-generator/references/security-report-templates.md",
+    "sha256": "b4093349a1e44a52026928f896f01afdd70826dcbc388acba938339628e65a11"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/docs-generator/references/templates.md",
+    "sha256": "03cedfb2b2f63bc33e0b6547fa168c8ea99e19dce30404127c2e74e686d74a7f"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/docs-generator/references/vendor-report-rules.md",
+    "sha256": "7a9f3c6de3e53d8c403d6728285402d1d7dd7b0239f91a915298bbf2bd6856a7"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/dotnet-reverse/SKILL.md",
+    "sha256": "12154b4dd685e9fa4cf3c1912e1582cfaa1a2996dce95fee4c563a2d6c120dd7"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/dotnet-reverse/references/common-workflow.md",
+    "sha256": "2da25776e246b65d9ef4d5104a3a17f40c8587e29f633a1d00bb91d561da48a7"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/dotnet-reverse/references/obfuscators.md",
+    "sha256": "7e62af27d2aa4eabbe5489d6eafa35ca0e796f9e622b85b6eb7affc3f5c42dfe"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/dotnet-reverse/references/sharp-tools.md",
+    "sha256": "085a7627bddd3ec074c9bd8884a3779f3f37749aeee26cf79dd56d53d719ba67"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/edr-bypass-re/SKILL.md",
+    "sha256": "aec103f818c88937aa360246d76eaa261b96e3e83464eb7f86f96bd8aa04cdb5"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/edr-bypass-re/references/hook-survey.md",
+    "sha256": "2f1774bb16ff99d55cc5c36d17ff79d84ba3b004b4b88e68383116b98daae73f"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/edr-bypass-re/references/telemetry-blinding.md",
+    "sha256": "7cccbcd5fa6fafdbf611070164788c2455976b2adda0e4f178b407e5bef7105f"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/edr-bypass-re/references/unhook-techniques.md",
+    "sha256": "96b9d4576ac05f66d3f5bb9b6033c7017c6038d431fe4ba45d9ab67622c27d3c"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/email-security/SKILL.md",
+    "sha256": "fb881515775900b21a6d1266b20d60a21bfe992279a6bf8c4411a71e1a9efa63"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/email-security/references/email-auth-checklist.md",
+    "sha256": "6a48fdb41311ad9caff4d234aba7a89ffcaa4497614d21dba0974b258b742ee5"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/field-journal/2026-05-15-cellular-pro-mumu-ksad-fragment-fix.md",
+    "sha256": "ed4fe861c233c31c622585f00b4be3432b6d29197fd56d529a02e4e12057c79d"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/field-journal/2026-05-15_lumine-go-reverse.md",
+    "sha256": "86ec3d4c7b7f1146b492d25e25e2acfa060453f121478bb0d3c5bb69daf33107"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/field-journal/2026-05-16_pentest-personalblog-fun-mass-assignment.md",
+    "sha256": "7179d84b8fbffb82d100e40b6e8cf89326884162a1453f403a5978d929a001f5"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/field-journal/2026-05-17_pentest-vue-spa-actuator-leak.md",
+    "sha256": "bda68dab89a2f650f19da5c032019f7c129b625c8729e4a140a19fa67baa0004"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/field-journal/2026-05-25_pentest-cf-access-sibling-subdomain-cookie-poisoning.md",
+    "sha256": "8b72a538d0e5941f4822ddea773f7566cadfd02782922c01972abd145059e8e6"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/field-journal/2026-05-26_pentest-newapi-rate-limit-bypass.md",
+    "sha256": "e01b15f5f266c698a8c699c593e20179f27168db288db889fe6a0f1ed232de87"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/field-journal/2026-06-29_burp-mcp-full-test-and-fix.md",
+    "sha256": "d0c88447c0223ad814030d098b6a1b8d447f31f112cd1dd254be4e77b7268ab4"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/field-journal/2026-07-05_dsl-vm-captcha-reverse.md",
+    "sha256": "8734cdf9d26d0f5b74f8cfe8d0660ba4893e6d2bd261e9bf67906728bdc0f4c4"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/field-journal/2026-07-14_android-arm64-self-extract-source-recovery.md",
+    "sha256": "9b1a25ad1cba9f05210db21474124ea26808b4a284db4e3f63a28be93e7c629e"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/field-journal/2026-07-18_gin-juice-client-friction.md",
+    "sha256": "8e595445e543537fb14a78c8c68616bd644596099c7da598f1d781abb77942e9"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/field-journal/2026-07-20_reverse-toolchain-windows-bootstrap.md",
+    "sha256": "f5e2595e0abc88816bce42219f008e6ba257d8795f3f2a4af2fe14b4316fd3cb"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/field-journal/2026-07-22_electron-bytenode-privileged-update-chain.md",
+    "sha256": "f10b8a854331bd35972deb9de581c6ac1d7ec7ad094eb86bd2d324a93197af48"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/field-journal/2026-08-01_nextjs-cdk-contract-faithful-local-reconstruction.md",
+    "sha256": "4c6b159ca4a7896e98d63a07d85e5a79f7cf7dac0ce318a2fcd121487174d8d1"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/field-journal/2026-08-01_pentest-encryption-oracle-public-template-sql-admin-takeover.md",
+    "sha256": "2b8b006d2fa2d8361dad540020cfd0d4a6e9e9fc98c33a52d0eb459cc559e276"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/field-journal/2026-08-06_cortex-m-msc-firmware-self-keyed-rotate-xor.md",
+    "sha256": "15deea9d9029948d0001058771e29dafa16eff609cd05e4d4cdd2de710f8abca"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/field-journal/2026-08-08_client-neutral-structured-routing-pr-integration.md",
+    "sha256": "ac0a177339a30b4915577da25955c7c71410c2f998d3c416944e31328b407405"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/field-journal/2026-08-08_pr-value-triage-and-safe-integration.md",
+    "sha256": "15b9c8ee8c5e270852dc3965dfef087bd08ef16f200a79c7ffbe75f86f381669"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/field-journal/2026-08-14_windows-powershell-native-exit-code-pr-review.md",
+    "sha256": "f26f36fe75bc3681fc040b55e2d06bc2c6cdb9958b0669ecbeb94cf5144b9a7d"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/field-journal/2026-08-17_tool-index-r2-fallback-powershell-pwsh-host-fix.md",
+    "sha256": "0f3441d17f0f6d16aa0bb13116763de1db8da8a90fda82bb3389d0d157ad1cf5"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/field-journal/2026-08-20_apk-flutter-banner-ad-removal.md",
+    "sha256": "fb0ede0aa215230dfd67c5bc055ec7775b7193cdcc8f8b79ea8991a7ad6606c2"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/field-journal/2026-09-03_issue-pr-security-boundary-integration.md",
+    "sha256": "b4d596aac3987837befd36b88f6419e3a256483e0ec3492827d538d310f0d4dd"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/field-journal/CONTRIBUTE-BACK.md",
+    "sha256": "8ee66b7e3ac60de91a7f5939fa615787f2ba93395064b0522027490c79bf3ca1"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/field-journal/_index.md",
+    "sha256": "2d92e47620b0bebc51875ac29061569a17bd97c24abf75801619e3c5e5b4d8da"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/field-journal/_template.md",
+    "sha256": "31acb54588de88f14897ebd26f649a3a6194aaadf6ac7b6ce85ca880433ea354"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/field-journal/anonymization.md",
+    "sha256": "903ad79fcce58db34611bd36b63258dadddf7c22f7577fdea72a4d287a24a0ef"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/field-journal/precedent-auth.md",
+    "sha256": "7bf882239aa23e7ba961f2c438ef5a3132c35a95ac1193a261c96223b70ee047"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/field-journal/precedent-pentest.md",
+    "sha256": "80fabd62390057329c48334f3b5987b265b9864a5a6c029419865247b0dadca5"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/field-journal/precedent-reverse.md",
+    "sha256": "48dc691f86ba39aa97c375850da977867e4f5bb74c56861cdcae22994357307a"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/field-journal/seed-001_elf-packed-loader.md",
+    "sha256": "a943f62f45c9bd218895efaaf961f75696568bf6ceeab0e8028c06800a0078d6"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/field-journal/seed-002_go-malware-stripped.md",
+    "sha256": "e0c7ca18a03e70709d1f972942764599bb183b446c8e840d902b6ed0e0fb021d"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/field-journal/seed-003_web-api-auth-bypass.md",
+    "sha256": "8841c9c3958a89009a561c55cf171fef6cf680054a3232180977c12623ebd97f"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/field-journal/seed-004_js-sign-webpack.md",
+    "sha256": "e7d159bc51e18790cdb3c98b3e79f55c70fa3ed6a119cfd9bb28418b8c6c7bd8"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/field-journal/seed-005_ad-certipy-esc1.md",
+    "sha256": "1e71c2ea90facf6ad4809a0d6b282e5dcfaaa66a84ee874cea5d7b89da65a607"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/field-journal/seed-006_ssrf-cloud-metadata.md",
+    "sha256": "c6af26160cec7af6ea7a360ddcca7ff6e8b99ba5298997696982172933164c60"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/field-journal/seed-007_ntlm-relay-coercer.md",
+    "sha256": "030095adb01de5de88e388c095020df6d5b59eb9d198ee13e414263b27caa2cc"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/field-journal/seed-008_apk-okhttp-ssl-pin-bypass.md",
+    "sha256": "18e206e70bd64e487c2da270098b2377aeadbfddd2e035041f7a38041d867db5"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/field-journal/seed-009_ios-jailbreak-detect-bypass.md",
+    "sha256": "e742afb55a2891396602d0930f5c6c219c8845bbf0d53b0d69c1f2b966329df1"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/field-journal/seed-010_ctf-pwn-rop-x64.md",
+    "sha256": "13b81e4568e5896200ea1621681995ffcb385000de9b93462b1ae79c6979c94a"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/field-journal/seed-011_pcap-protocol-reverse.md",
+    "sha256": "88275c0913835f4d9596724a14f30f593c275a7142405720b6f171c3974ed680"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/field-journal/seed-012_log4shell-jndi-rce.md",
+    "sha256": "41fa60511fa734fb33e94f6bdb89ff7479d7019df82a2bf292834489eb4ccb07"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/field-journal/seed-013_kerberoasting-spn.md",
+    "sha256": "dff44be83624c767ff30175ac06983ee5d7b23d0efba5b6d69c1b174f04b86c9"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/field-journal/seed-014_unity-il2cpp-reverse.md",
+    "sha256": "432ea0d05f1c9d115d4b0cd0230658bc0c6363f268a4c814e6d46dced8f16af4"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/field-journal/seed-015_iot-firmware-uart.md",
+    "sha256": "c24acb5e090f328c479f45e913c6260b3fe1e7f593530d63bc47a1e64081bc9f"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/field-journal/seed-016_k8s-container-escape.md",
+    "sha256": "a4bde9f5ebaf362302686d275b65e2003bb7cd9d8d9e9706d37270d01b4648f3"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/field-journal/seed-017_xxe-oob-exfil.md",
+    "sha256": "bfb1e665fb6a4373f56e3f506dcaf7f1fab8eeff78125f2a24fd18eca1105737"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/firmware-pentest/SKILL.md",
+    "sha256": "803512f2a83e1bc5731bab71dcce1f7d27a237a7b298e125c397e5d226feecd3"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/firmware-pentest/references/emba-automated-analysis.md",
+    "sha256": "fa4a933cb9920b259d4399cd9aa3dac569ca8b818291c179e5854803f0cc08f9"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/firmware-pentest/references/emulation-and-fuzz.md",
+    "sha256": "e5760bb6c7b48fb561226163f6642c528afed3ba79ee62f412e3482bff4447c3"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/firmware-pentest/references/extraction-methodology.md",
+    "sha256": "218610a581207c91d49b4cfb8280ae0b4fb8c1e33fa945b87f9c679e0daac61b"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/ghidra-reverse/SKILL.md",
+    "sha256": "f71acac4668b0320ce9f9768bb7cacc200b75140f1bab051982c8c5c3d3869b7"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/ghidra-reverse/references/ghidra-cheatsheet.md",
+    "sha256": "bd6fb357f9441f3657dff868d9b9a58db7d9f47d7220e5f8839e4c67276cdd1a"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/go-rust-reverse/SKILL.md",
+    "sha256": "e5037d0ec42f8c8ae5c11b8429ce5ba83fac11cccbecf3bccbfc99df4861139c"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/go-rust-reverse/references/go-rust-notes.md",
+    "sha256": "661c71d7082d611fb969ecbc35f3301aceb1da15933a89313000088b0d599b64"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/hardware-security/SKILL.md",
+    "sha256": "0c983618e13278817303ab96d32ada26e5f058afc778106b45672fbb04b0ec3c"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/hardware-security/references/debug-interface-triage.md",
+    "sha256": "e74f1cb8c9ad43f4c1f82a0422a958d7c9230b285ffa02dac27554e2db95f62b"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/ida-reverse/LOCAL-SETUP.md",
+    "sha256": "dd7837ffded13f5a8b2cd5d03dbac3c18c15db32231e0ff40a36bbe11cc841cf"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/ida-reverse/SKILL.md",
+    "sha256": "c6103d51f982158668587851feb5f6ce98172a4e0c9feb49df52e91561ad39be"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/ida-reverse/references/ida-mcp-cheatsheet.md",
+    "sha256": "6d0f3013f4977691fe1e7d81397abe1f550b1b6462ea5f5f5302b816baf0405b"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/ida-reverse/scripts/IdaOpenHelpers.ps1",
+    "sha256": "a95e0567c6877eb16edce24c8a9e2ed5753b6a5804ce2badc3c1c86b7c475405"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/ida-reverse/scripts/install-autostart.ps1",
+    "sha256": "188d6c4bef6b88a30c83ad71e2f25ad3679e53f99392a064e9a1fa1b28a5bccf"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/ida-reverse/scripts/open.ps1",
+    "sha256": "e6ce5e5472c2c70d99af136231248eecab3703410012bf84957350617f15fd59"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/ida-reverse/scripts/recover.ps1",
+    "sha256": "f0fc2d1adc9ecf243829c44562c58122ec5780b6d7b3aa223b8c26c54ab64de9"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/ida-reverse/scripts/run-supervisor.py",
+    "sha256": "7a6f71a099bde4cfceeae5e959c4c29d4615d37bb41206d210d46ccfe7dc3032"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/ida-reverse/scripts/start-gui.ps1",
+    "sha256": "bc403fb68cf7849dd60464b087239c0b6147ddd05cb7a15d7cc7ad60e614859a"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/ida-reverse/scripts/start.ps1",
+    "sha256": "4d719c5f10842f68aebbc67b0c2674deeeaae6fa287cb20774f98c5823e8635c"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/ida-reverse/scripts/watchdog.ps1",
+    "sha256": "12bda38f98c1cfe301c0cbc9823aa3596af954612f29cf5aa1f82a00f5f6f7c4"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/identity-federation/SKILL.md",
+    "sha256": "673e4222ed9c06fd9e03fac7ce8b015ff21a93765b236138539081c10e3ced24"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/identity-federation/references/sso-flow-checklist.md",
+    "sha256": "33c61fe6b7bde7aae5ab60c11b2132d71dd5dcaec060ea0111b3f121a7542b73"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/js-reverse/SKILL.md",
+    "sha256": "ba6379bb85d2f9d80c9b418867d9c4be810f8681db1f74098264fbd04d118dc8"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/js-reverse/references/ast-deobfuscation.md",
+    "sha256": "f17674b425049e38b11d50123793d0658602e9614cca7882fa6ca193f8090081"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/js-reverse/references/automation-entry.md",
+    "sha256": "74f04e1b434bb4dd716328db52825eef7bf14c4709965a42ca0a4b19338ea4e4"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/js-reverse/references/env-patching.md",
+    "sha256": "86d099755acaf104c9d83966cc11746b6e8378db66c75e546b5f106e6117afb5"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/js-reverse/references/fallbacks.md",
+    "sha256": "4a29d01fcc2c79b15df353b8f93ef9cd26d57a4dedff66d4170eeb23e0fa4696"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/js-reverse/references/instrumentation.md",
+    "sha256": "04306264d4403a7091f3c9910fdaf575557699496fe5bbde6c9ac96313116d61"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/js-reverse/references/local-rebuild.md",
+    "sha256": "64819623a0dad7104220cd7c71dd171cb6cc38a59d59b15974fc7df3c3bbc26f"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/js-reverse/references/mcp-task-template.md",
+    "sha256": "80ea1f87d1a9719d04d98fafcfe355e23984f49a32c88aadfea4b2ccdf6a0f00"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/js-reverse/references/node-env-rebuild.md",
+    "sha256": "68edef32e61396d6278bdde500c702b7627dd944b88985032c68fff844019027"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/js-reverse/references/output-contract.md",
+    "sha256": "318818bbde547fa2c91c621b7ec7d50b9f6b585953949ae6709d8da0693116e6"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/js-reverse/references/task-artifacts.md",
+    "sha256": "d798a89acb2526316a155918e4a1063d6b88993b7119329abaa3f8c7ced7ba39"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/js-reverse/references/task-input-template.md",
+    "sha256": "286631de3aa4a8767404a3231c633c756e08798084fa145e42d1630106a0dc03"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/js-reverse/references/tool-defaults.md",
+    "sha256": "bb8f97f71bad3bd6a10265ac846b2fed5fc7c28da60344ab565b9bd903474af3"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/llm-security/SKILL.md",
+    "sha256": "141ef901d5a070ddcd633f1a07717ba1b4eb8bbe0db4dd2f44429d65d1aece39"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/llm-security/references/agent-obedience-engineering.md",
+    "sha256": "f343a827fb96206a41a6e5c371931e13eb4194ed3f06c18fab5a1370da4dd942"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/llm-security/references/agent-security-testing.md",
+    "sha256": "bb63477f428acc9bf69233d5389b81bb995b04d83788c85a9e723cb65c5ddcc8"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/llm-security/references/owasp-llm-top10.md",
+    "sha256": "377bcf373c2f07916af795c2b3237e7522b22d476ff48355a9a201b914b19377"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/llm-security/references/prompt-injection-methodology.md",
+    "sha256": "4a99d68823dd4403bcc9810dd04111bbac111411cbc02bee666102b0f3104b3f"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/macos-reverse/SKILL.md",
+    "sha256": "727633a83f01000977d3eecd93fb77324ea082f0207c9fd1b532ae315e01e1ec"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/macos-reverse/references/macho-triage.md",
+    "sha256": "cdf5ae1803f16043618ada0e5f00d3edf0b58a3726b2be049eb485c77cf615d1"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/malware-analysis/SKILL.md",
+    "sha256": "4b62b8283d60084fd58f87442d9ac283b26b19e244b71d50ceee699b4353afe1"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/malware-analysis/references/anti-analysis-techniques.md",
+    "sha256": "27bbda99e9cac6ef6945ff5fedfc3b705cafc8ad9e3a4a6ef3e5e033221ccd2b"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/malware-analysis/references/sandbox-orchestration.md",
+    "sha256": "679fe226a69e03633b33840dc0b035917c3a800b3b8282ec31c067ba124f658a"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/malware-analysis/references/yara-sigma-rules.md",
+    "sha256": "5369e6177e14518b8752696028fe869baa1b8ae96dbc7dc7d88b65a6ac4a1a76"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/mobile-reverse/SKILL.md",
+    "sha256": "b98b526522ba37b64f20ad763dd5992f42884aa34e30e5cc2f73e7a6a86881f5"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/mobile-reverse/references/anti-detection-bypass.md",
+    "sha256": "41cc64e54cad6f920ddbf6f88c98da4bc6d0bad2989f6c78f08dc4d3b82a03c2"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/mobile-reverse/references/frida-objection-deep.md",
+    "sha256": "73d3f22ead0cf6da134550fb7e4023abe177c1c86ecd075bf95515c1803f2d46"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/mobile-reverse/references/ios-reverse-guide.md",
+    "sha256": "737b28e598257713677404613c55af5fd2def40caa3bd101d3328d14e6b1a62d"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/ops/IDENTITY.md",
+    "sha256": "b52a9980a076d01a16bd5f71e9d0cfc2be016b435274b7c38c4ebe97b7b29e46"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/ops/README.md",
+    "sha256": "ee4917b76c75d85a7592c1f13b732a0bd3eeee0afd10ec833b69822e1acea931"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/ops/analysis-blindspot-cookbook.md",
+    "sha256": "9f2f1eec0c82d07687191b10861293d836f69583139252cf755fff88dc87d334"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/ops/analysis-decision-framework.md",
+    "sha256": "3566c27ba943180b77d75b43d5bd4614eac7026b845dff9889770f72b0aca5c6"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/ops/evidence-finding-path.md",
+    "sha256": "8a4eb04acc865605409f284c2f476b3a07676739fc263b57e7b6c7c9e0c4017a"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/ops/role-map.md",
+    "sha256": "6a61ccde45b0ace7df586f8678ec9a675347e40f26e9ca1f3321fbba444451e3"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/ops/sandbox-profile.md",
+    "sha256": "2d0b9ce7e1fa5833b741ecf66e6ab71b2f40d9e7c994891973ecac300c8f04fa"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/ops/scope-contract.md",
+    "sha256": "cf7e170d6796155e43b59bf153c02355852bb414bd0b7d04cd7e3f8bde9cfec0"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/ops/skill-supply-chain.md",
+    "sha256": "927f3b6a758be75c22259ab9639c13e57178f6ad65866508586a0367001e698e"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/ops/timeline-workitem.md",
+    "sha256": "8621af4384ff89c7a9f106219b2d860bf3652b6f3b67ce58c76a95684bb5dc47"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/ot-ics/SKILL.md",
+    "sha256": "81bf7ff97d1e0d446ec262a2fed726e52abe3cce88e07c01ce31afcd0061bc9e"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/ot-ics/references/ot-safe-assessment.md",
+    "sha256": "0c9eb6ea4d0a8116c813fd0fa9a3c914ba446c6500c674ea2bcf08955bd4edf3"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/patch-diff-exploit/SKILL.md",
+    "sha256": "b010987e97733c3f218700f45e283c916ee7af925e8ce216320c503006c8bcf7"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/patch-diff-exploit/references/diff-tools-comparison.md",
+    "sha256": "e72cbaa32d76283f5739238e3b66e7b143194b940f44be146ad7624c335ac0cd"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/patch-diff-exploit/references/patch-tuesday-workflow.md",
+    "sha256": "d486f45cecd4fb7705b9d3cf329e2b83207315bbbe46998d606f6e68b5aceb86"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/patch-diff-exploit/references/root-cause-and-poc.md",
+    "sha256": "9fee53c914412252e4a61c8183a0471c0451be062f984df559ee25af183ccf5a"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/SKILL.md",
+    "sha256": "5bab5fe16593998862c763959ae6643e1bf81ed8d75bfa924f42c2aabd1170c9"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/payloads/README.md",
+    "sha256": "44aacce292577dac49f7ef7ed26f095f0dd768d57d268e101d7389f7e132592b"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/references/ai-pentest-agents.md",
+    "sha256": "84b2913a52354265b91e92aa7097a8c7c1b8aa0512f485daa1960cec78990921"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/references/ai-pentesting-landscape-2026.md",
+    "sha256": "649c8665835b084e4398a4ed5a3735606cc50b1c5d4b86e2a210fed477ecf645"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/references/automation-loop-pattern.md",
+    "sha256": "256f99caa7b65efb6246e5286ccc2425e957e4bfd323fb59c4b30b114dc4283e"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/references/awesome-pentest-digest.md",
+    "sha256": "7d11cc879edb426cded0ab75c59942ae8049809de5ae6e909927fa9d3f4aad5b"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/references/burpsuite-mcp-guide.md",
+    "sha256": "3e0eeeeada8ba5829aecf2c3abe0a1c3cef0d7e1c64895d9ab6cac50481e5296"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/references/client-side-lab-playbook.md",
+    "sha256": "9380d626b7116c78bceeb7ff6fed83ffc548d9addbcb7ef0be3ea2dfa7c9d4e4"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/references/kali-mcp-ecosystem.md",
+    "sha256": "f242aee5c8190f3457755ca2febc88fb8837b51b634c45b8b9426ac617166340"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/references/msf-protocol.md",
+    "sha256": "e5d0c0b5a1b55d98ed2903cea45500ccb0fc7099beb920a2ad0fb0d2a598c40c"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/references/network-attack-defense.md",
+    "sha256": "3bccbb98b195bc0b5a1dd92869af65660b4dd2d493e30c432381b9831dc71f8c"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/references/nuclei-guide-2026.md",
+    "sha256": "479d866711e880dd66460369f010baeee0a8caaceb71d18fcb7f2ebff171c333"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/references/pentest-ai-agents-matrix.md",
+    "sha256": "caebe2d2b65825d7e2c3298cffdad96eb66c6a273740653c97a85d99bf19a9bb"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/references/pentest-loop.md",
+    "sha256": "dcbaccf3318fd968058639b2de4f435a5b9e8f1878b0b819c0f7dfe359aa1af6"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/references/recon-pipeline.md",
+    "sha256": "bd3e0183e381a77adcc95b021e477f248212384a9679723427b6090bbe23e4b5"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/references/web-attack-cheatsheet.md",
+    "sha256": "fc8decb8ae27d5dfbb510109c22cdea9c2e02b438177d476d847ec11849f3e53"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/src-hunter/.claude-plugin/marketplace.json",
+    "sha256": "83044119a36c5d7369a2d56778ef73c5890e4dd0699083c696c1b8da09d6eb65"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/src-hunter/.gitignore",
+    "sha256": "cd0529ad2d292643b31f03a13a8bd89badaaefa760e30026dcc8db5a3c6e5769"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/src-hunter/LICENSE",
+    "sha256": "132f0004024468fd6a7ef5c9e906087194d897cbf096a0ea282a0d180ff7a5fd"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/src-hunter/README.en.md",
+    "sha256": "acaffdea03855d5bb8313bb55d16019d7b8decd81f28e59b7fa08f5a5327dba6"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/src-hunter/README.md",
+    "sha256": "fcb508ea86de61ebc9afb2f9bb508b1531971331be52a0f04b80d0e2931566fd"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/src-hunter/SKILL.md",
+    "sha256": "1819d01dce004deeea66217d9e2aeda7e5cead3ff3ecbd5cb77db1844b34741a"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/src-hunter/references/.gitkeep",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/src-hunter/references/dictionaries/00-index.md",
+    "sha256": "b6237b3f65ff4b43c97a7df12d5ea30f8c8f49c7429f9fbafa0f5b982fecb586"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/src-hunter/references/dictionaries/chinese-srcfingerprints.md",
+    "sha256": "b029599c86b9a69c93eae8cd97bb8217a95ce10267bcb273fbf48b92827e79b6"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/src-hunter/references/dictionaries/default-credentials-cn.md",
+    "sha256": "65cbf20d7613944358e365152b3bc40cd8c8a0256411c9e464717ad4146e5d9f"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/src-hunter/references/industry/00-index.md",
+    "sha256": "b5df0cf51d43570e24bf69ee9ac417137134cb2144d2344cf57a1e1caeff82bd"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/src-hunter/references/industry/banking-finance.md",
+    "sha256": "6a362481f7074c71c487ac436108cf58ed7564ea3ff10519154bc6cd032afbd7"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/src-hunter/references/industry/telecom-isp.md",
+    "sha256": "4142907b7d8999ecef1abd42044fa00b5bdf133c337c97cead31eb00499a733d"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/src-hunter/references/methodology/00-index.md",
+    "sha256": "28fbb4b5d9ac798f104ef9e4dd0366f830de59d45afa9229bed4dd59a1c6b71a"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/src-hunter/references/methodology/01-attack-priority.md",
+    "sha256": "a79cece936041a110da6c8fb613ffbb1f6571861c2ee70528c2fb83d8f27145f"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/src-hunter/references/methodology/02-bypass-toolkit.md",
+    "sha256": "195e0147d816b80fa81ccd46942e79dbda1b463c442ece03143af30f0004dc55"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/src-hunter/references/methodology/03-evidence-discipline.md",
+    "sha256": "a132926f8529c1de23ff7bcf797a357c48b4edd515cc6067a7383e72038e767d"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/src-hunter/references/methodology/04-control-gap-hunting.md",
+    "sha256": "d6674c1c586e1352849bf7be7d1cd58fd43873f9bf6601961001918dc1acc9b8"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/src-hunter/references/methodology/05-srctimebox-priority.md",
+    "sha256": "d305fabc822db4948280eb2e8874041acd0ad3e6b75df162768907a7db705d12"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/adcs攻击.md",
+    "sha256": "49764e95a2e121899961b1915794f9264d095343b471bca97d5317d020ed0020"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/exchange攻击.md",
+    "sha256": "cf4caee522f21c3ba61b32d5d6f12194238bf52b8b17ae339eb2c83adcbb626b"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/sharepoint攻击.md",
+    "sha256": "7b70d23bb9f9513f01d168fa32a3905c064f82479c22a586f4c01693693efeeb"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/信息收集.md",
+    "sha256": "5acfd461329ca663c7ce13e21f7ba842a628baeb9ab228ed32f3087dd07c716e"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/免杀与规避.md",
+    "sha256": "2485e619ad92861fd0b5679cb7379b3080940aacac7faa370c80792d92dd970b"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/凭证窃取.md",
+    "sha256": "1342b24a3495cacb5a5b52cdcb651d57ca63acae27d308ced93e116957589d14"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/域渗透攻击.md",
+    "sha256": "d17eca3e9f70bd57f5b402b354c3fa7f0f819c45cad5172900d85ce3de9fac53"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/权限提升.md",
+    "sha256": "35b9e8b08920b1bc3bdc10383d30d486da23ac32c6041bc8ee38cfad2f07bf8b"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/权限维持.md",
+    "sha256": "b7e706d1fd458c22ecda66b0a864c756c14668f6e447e4278ee93f404723309b"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/横向移动.md",
+    "sha256": "f5a021ef61469f424a1a7657f74cb5769040fa00fd83420d2cafdc961bb1b96a"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/隧道代理.md",
+    "sha256": "f6d800b30cc8082bdd0229823cbd993ea52740dfeed622753fd31798537ccfa7"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/src-hunter/references/payloader/by-category/web/ai安全.md",
+    "sha256": "f46fe80c1d6bad523eab76a3617513d6805f29e590945bfe32ff00b5f1c4f205"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/src-hunter/references/payloader/by-category/web/api安全.md",
+    "sha256": "7e6f3250a870cc70a92ac487d1dde3ffdfbe843f9ed6aaaefd1dcec5f9bc2bbd"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/src-hunter/references/payloader/by-category/web/csrf跨站请求伪造.md",
+    "sha256": "902e611ac1e94675d16d9504942ded4d4ffac5e0b38c91aa64f2f6e68dcdb136"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/src-hunter/references/payloader/by-category/web/jwt安全.md",
+    "sha256": "ca8a4e5c96b617bf63d679aaf2173efe81c3b93e554e5f4dae69d8cf61fba93b"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/src-hunter/references/payloader/by-category/web/lfi-rfi文件包含.md",
+    "sha256": "8f3027b8f0e4f804883199186af7beb9c9e5c27fd511094ec1bbe4b00c0e9da5"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/src-hunter/references/payloader/by-category/web/rce远程代码执行.md",
+    "sha256": "3c3f90ed64fce28b1a4c1447cc06488d0f4fd79235e466a9f1a77fd07732f19a"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/src-hunter/references/payloader/by-category/web/sql-nosql注入.md",
+    "sha256": "54c8bc04c2e76f4387a284b28ee6ecbeee15f4fd93a2d762af0974197dc444bd"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/src-hunter/references/payloader/by-category/web/ssrf服务端请求伪造.md",
+    "sha256": "cb1d17bd8a8e7d55b64d1c6fa42c9cbf61d709f14666241d5045e97cdb793d4a"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/src-hunter/references/payloader/by-category/web/ssti模板注入.md",
+    "sha256": "87795a61c8b447afb6149dca45d8b4e03611a08628c3ab6544e298be550a7413"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/src-hunter/references/payloader/by-category/web/websocket安全.md",
+    "sha256": "d09ac8509f7860073fe077090024a6d48341a1b4db56050df428f8902beede48"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/src-hunter/references/payloader/by-category/web/xss跨站脚本.md",
+    "sha256": "2e1ec33087f87e6f953be9cd4e349e7dd04c4f519bce5fa6edf028bf50db79e2"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/src-hunter/references/payloader/by-category/web/xxe实体注入.md",
+    "sha256": "15033e2cfc27f9e13e519bd919b887cc942b6ad306794ccf5f3409786aba9163"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/src-hunter/references/payloader/by-category/web/业务逻辑漏洞.md",
+    "sha256": "4979c6c25cfc88ce0a1f742a275d852a1c7231a922a67018a99be2d6fca423db"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/src-hunter/references/payloader/by-category/web/云安全漏洞.md",
+    "sha256": "06227cb4d026e2c2df16d2bb010349180cc69e2f68f9646edacdc935b18a8723"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/src-hunter/references/payloader/by-category/web/供应链攻击.md",
+    "sha256": "f7acc4df83c0b406475c343df09324834dcbeb86589269b1d4517275f7fd3dc6"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/src-hunter/references/payloader/by-category/web/原型链污染.md",
+    "sha256": "8d74c1d9dbb503deb2af11a4eec5f55083ff35e51c2eec1a7d8d32e276fc4631"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/src-hunter/references/payloader/by-category/web/开放重定向.md",
+    "sha256": "da3ba98d03006743f88d94aef8abb630b2f2049937c1ce9ce2a1413ec1680453"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/src-hunter/references/payloader/by-category/web/文件漏洞.md",
+    "sha256": "0236fc2822eaeb293c320045989f7d8468640fd0e22576c1c07e07217ef40121"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/src-hunter/references/payloader/by-category/web/框架漏洞.md",
+    "sha256": "27c4743dc671f2ae9441d87f809a64f8978cfdaeeaa940f632c23937160f1c3c"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/src-hunter/references/payloader/by-category/web/点击劫持.md",
+    "sha256": "449736c9a519b0949861d2be912192875f0afc9a350bbe5e8fa041e7619ea862"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/src-hunter/references/payloader/by-category/web/缓存与cdn安全.md",
+    "sha256": "e6bf45fb9851dfcaba9aa8417cbabddf0f771aeee265c38a8de96a409303b67c"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/src-hunter/references/payloader/by-category/web/认证漏洞.md",
+    "sha256": "b7f77de2c38ee4d1b376351a5d8373f76aca74dcafa16c3a6b3c4ccad460b0c4"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/src-hunter/references/payloader/by-category/web/请求走私.md",
+    "sha256": "c5b9c665f23e3a2f2dcd5f78f81595774406f1ecdb5d041599db2842f1e63c84"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/src-hunter/references/payloader/index.md",
+    "sha256": "089fd77453da1971ba3fc3c3858494eadfda4312f2cbcedc6717ec5eb36c5db2"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/src-hunter/references/payloader/raw/navigation.json",
+    "sha256": "ffcb11d359554d2e8dd6f35d5121cf52ef4d26f0484fb9d5f30ff1058cd63971"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/src-hunter/references/payloader/raw/tools.json",
+    "sha256": "4cec9f217c270c13aa341ab73d4a74b63ba685bb8a5437c7e6533663d55041e0"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/src-hunter/references/payloader/raw/web.json",
+    "sha256": "25c5dcb30505f7ff7417d6bee274419fc8730855f33af1c35a89118c02d8de21"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/src-hunter/references/payloader/tools/web渗透.md",
+    "sha256": "39a2bbbfca07402744b4fa5ccb68ee925bc3e7bbe805dadedc09b17bac454489"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/src-hunter/references/payloader/tools/windows渗透.md",
+    "sha256": "6bebbdfb5877ff550d2786f276ce8de29bc1bfef8c0a017d25bb3b193193e8a9"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/src-hunter/references/payloader/tools/信息收集.md",
+    "sha256": "c038c60912649e4a71e76f34168e744bcfe7ba50fc72f0475dc66afc3775bfaf"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/src-hunter/references/payloader/tools/内网渗透.md",
+    "sha256": "91b16a15984e7595ac1ae0281d7061638f54b2f272341f9041bc182832d88369"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/src-hunter/references/payloader/tools/凭证窃取.md",
+    "sha256": "e9b7796010790258e403e3f034918dcfd67fa86e83843b56c0f69b668d2f402d"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/src-hunter/references/payloader/tools/域渗透.md",
+    "sha256": "8da38326c4a4cfc5d451141ec68242e067199366010e135101caaf65f6ce461d"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/src-hunter/references/payloader/tools/密码攻击.md",
+    "sha256": "d2586e92d896fcd39fb70f4c317b643bbcccc9243d485094481dfbc9e7ab9cd3"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/src-hunter/references/payloader/tools/权限提升.md",
+    "sha256": "758c0337ef26cb7df26f16023b29c6c54498e5a36cbf190a3d9fdf3a06cb724e"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/src-hunter/references/payloader/tools/漏洞利用.md",
+    "sha256": "f5e490d5f35ce24a68f284e2cb4db3fee75dffb9b39d4ee6d3ba368f43706ae5"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/src-hunter/references/payloader/tools/系统命令.md",
+    "sha256": "5da09ab4d320b19fc3c7f2137753ceb7791b81f70f7e391313ddbb644bc86b27"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/src-hunter/references/payloader/tools/红队工具.md",
+    "sha256": "d50bc7bbaf879cdad7f96619e1c178b2dab3f4af0cc42b77afb4d05dadc2c07e"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/src-hunter/references/payloader/tools/编码解码.md",
+    "sha256": "b9da8bd5126c5f681ad7aaa7446b826c5405dfb15fe0a464a4985ae534e05ed1"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/src-hunter/references/payloader/tools/隧道代理.md",
+    "sha256": "cf2842df7b97c820a513c27f5cb7f2b99c2376b376364cd4398ca699f586101d"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/src-hunter/references/payloader/waf-bypass.md",
+    "sha256": "0273517455962bb9908264f82e4708b31d541c91c2ec715e8032d6c1376728b5"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/src-hunter/references/playbooks/00-index.md",
+    "sha256": "7dff850138018018b112518a447a089d75e2eb7a37c08c94680a78b7eb76afed"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/src-hunter/references/playbooks/api-rest.md",
+    "sha256": "559270ce29945cb1b3c536291c3a7e8936d2e3483e0728b1349ad33fbb21916d"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/src-hunter/references/playbooks/arbitrary-x-authz.md",
+    "sha256": "acbb62c6c1d993f1a628d88deb04c11dc384127aed6f190043f3bc0f9aacdfab"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/src-hunter/references/playbooks/dos.md",
+    "sha256": "41ef3b79b715c834e6c72fafd1bbf6f64a67de4b38a725d70176a0bfb9fee0e7"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/src-hunter/references/playbooks/file-upload.md",
+    "sha256": "babfafeacae9c1ac38ae81053a7654ed136941d34313750fc2b5e94f50cb9c62"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/src-hunter/references/playbooks/graphql.md",
+    "sha256": "7a7dab374f1c308ae2246de7e7f126c7dfb03a4aea1ba5e3ab57b9712d367b0d"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/src-hunter/references/playbooks/http-smuggling.md",
+    "sha256": "82ff4bf6104fb3cb4628c33a6ec57e49d2dcb5c00024507675b1bfcd03ffa692"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/src-hunter/references/playbooks/info-disclosure.md",
+    "sha256": "357adaaf6a090473ac21a971fbb76f976a915e6a3c6925303a79ce1b39c984ad"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/src-hunter/references/playbooks/intranet-postexp.md",
+    "sha256": "73d9532614a19f9a76d2087dca92cd67731bc8788779c0588c3a727b57ef4931"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/src-hunter/references/playbooks/llm-prompt-injection.md",
+    "sha256": "5a7c5062f0e277eae08a1303857601ea66e5c4d0481cd3e3b8681a6655f67eb9"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/src-hunter/references/playbooks/logic-flaws.md",
+    "sha256": "867dad673cfb3ba8b036fdddee2a963dce76ec0337dec185edda1b845aa1a300"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/src-hunter/references/playbooks/mobile.md",
+    "sha256": "a56cd6ecd0472f0c1689c299f21ae056ae0c27a32b6cbde0a854f2e45ac3588e"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/src-hunter/references/playbooks/oauth-saml-jwt.md",
+    "sha256": "74f0f1b756d3cb414af042a13a93969851c1e6acd5ce821d36f84bfd043a5cdd"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/src-hunter/references/playbooks/path-traversal.md",
+    "sha256": "f98da7c3f908dc4320193b728319bbd59528b87899ab785400d70378660e72e0"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/src-hunter/references/playbooks/race-conditions.md",
+    "sha256": "8868b0e42f5429ebd76886d255a588046376e91b250832e68517052a5335baaf"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/src-hunter/references/playbooks/rce.md",
+    "sha256": "7d096c7ad9567e3485bf1720fd7ad17a9a53096a8970de4fdb8d8000df09ed8a"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/src-hunter/references/playbooks/sqli.md",
+    "sha256": "ce3de87afb9969dc0db0891e03a305c2d3e6ac7bd3ce5a75db1f676de6bdf8dd"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/src-hunter/references/playbooks/ssrf-cache-host.md",
+    "sha256": "e8db89cf04375decd7c108b96a83e99aca488b92e336d82ec1c676c6eec50f03"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/src-hunter/references/playbooks/unauth-access.md",
+    "sha256": "bb5b99cdbb790a1aa4f3fd5f2105c91f69b6c88c9629e037a554113716325069"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/src-hunter/references/playbooks/xss.md",
+    "sha256": "c1ed31e52c5354225efbce0d0a04d2882f78c8d3780c3a70a57759d3db5d9352"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/src-hunter/references/templates/report-submission.md",
+    "sha256": "c8d5e2e23f326afc23d4bebe59ec8f37df2f07c24178beac8a432f184c340a4f"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/src-hunter/references/tools/mcp-jshook.md",
+    "sha256": "7d4e9a5b263456c74a93352ae5a358d7e3b2069c6a2a77ba06c3cc65c3a03196"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/templates/findings.md",
+    "sha256": "02b399601d0b0aaf4410f551af26178a9c639d2b3c45e75a97a630e7c21459ca"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/templates/progress.md",
+    "sha256": "87bfc12dc4c4b9f5e9d87e1996d69bb706c7298402b9e6378e9f7128ed877aea"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/templates/rules.md",
+    "sha256": "fb3c9f1e8c8495c6cab57a2646c259051203356739bd0fc2ce6f6675918a41e6"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/templates/scope.md",
+    "sha256": "98209d49af001151050594dcbb069b7c9d7612e5ae3227d9aca4d66e7c4db1fe"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pentest-tools/templates/task_plan.md",
+    "sha256": "0d8eb4de9040534f3be9a39f37d7915d627bc2dc17f243402dbd9803fb8303d3"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/protocol-reverse/SKILL.md",
+    "sha256": "f8408273d7ba4177ed92f838940211d8ba2378a2c89d0efd2a8e33a35d1079da"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/protocol-reverse/references/protocol-workflow.md",
+    "sha256": "f306d29c2121fbdad5ac12bd19c102f68337b4c0dda25daecc3c331abe63b2f6"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pwn-chain/SKILL.md",
+    "sha256": "112df259349791cfde9019e0466258da87df64842ebf2825949f5aadf0a496d2"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pwn-chain/references/heap-pwn.md",
+    "sha256": "61ff066fffe69d7a3bb828fae6899a636d5a05cfe0874c56fa178a5018ebda0a"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pwn-chain/references/kernel-pwn.md",
+    "sha256": "cbb8cfa41ca06e8b616e252c0078692d88c09e6f3c7da05833ee633159a83524"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/pwn-chain/references/stack-pwn.md",
+    "sha256": "a342605f4c10048d62a9ff25321453d26a3ce397b7c10adde00964881a4cabcd"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/radare2/SKILL.md",
+    "sha256": "850c50bae1d59bfcf732f3f452bd19baefac73870a76c95a3aac6e89a4bdffe8"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/radare2/references/cheatsheet.md",
+    "sha256": "809bcbc5f5ff098acce96600abf4a94b7b8f54a7388fea71eab66f685f0e2d77"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/radare2/scripts/recon.ps1",
+    "sha256": "30e5575b63c00cf151277bcf23ebd0c751a02584b9f36c8860634384ce4bab7c"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/radare2/scripts/recon.sh",
+    "sha256": "2f3d5292f958e84796b4213ae1d9e18d3becc0092a7379735596d10e398a058f"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/radio-sdr/SKILL.md",
+    "sha256": "2bd539bcea3cc477b15e2583634aff9f9497cd55d826443960979e945d4cad07"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/radio-sdr/references/sdr-lab-rules.md",
+    "sha256": "74a8e9a7a4c8b62bae47963cd2d34ed6e0e150c327e0b9712ba17189eff10d6e"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/references/community-security-skills.md",
+    "sha256": "21f980cc0105917f52a4377a89b7aa702589a90b225d28f97b9be0a7bbd50e04"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/references/domain-coverage-map.md",
+    "sha256": "6a5385c2a355500ff65d0547e77dec404663f776722184c86980ba3ac9e5bdf5"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/reverse-engineering/SKILL.md",
+    "sha256": "7128b8445c61d41917eb28eb56c24c8ca2a3518b8b5b46c83137bf5e0b4935af"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/reverse-engineering/anti-analysis.md",
+    "sha256": "338417bde3a4473cf0b8238d7d32b5895fb98a25625776bf83752c3fb9844b9e"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/reverse-engineering/awesome-re-resources.md",
+    "sha256": "58cc6e32781cc9ea8f8e499bf2dc78a4d91b1fd41e784dad0424dc4f2ace4826"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/reverse-engineering/crypto-decode-tools.md",
+    "sha256": "1c2ce07acdbdbdd66fd45b6b1313d247c0885c7368570698064c56dc8e7735a3"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/reverse-engineering/dsl-vm-reverse/SKILL.md",
+    "sha256": "d3903b68141e8454fdbd3b2514446e89b14d42f7c4468b1062e4ac9e0a473e56"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/reverse-engineering/elf-analysis.md",
+    "sha256": "71ce8375e31194215b11c52ce7736669d2487fd44d2e1a2608e21a6ded14acc4"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/reverse-engineering/field-notes.md",
+    "sha256": "0f47426788f1cc8e9515a1f656a3e08091d2bd104941c45cfccf37ce20de2e43"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/reverse-engineering/go-reverse.md",
+    "sha256": "75e9060c4f6dd341c7c5f2f33a5c1fbccb21cd2ab2265833ebc5368856631041"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/reverse-engineering/kernel-driver-reverse.md",
+    "sha256": "f08149742b25287d2524d944a87162952a9d96ca5d6fedd24a81102d69c46119"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/reverse-engineering/languages-compiled.md",
+    "sha256": "26aecb4f27d050bb99fc646858df80c3773cf6e0bf42fa64a1ed18f911b1c7fb"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/reverse-engineering/languages-platforms.md",
+    "sha256": "67b6d6bb199c0eb69488ffb5f1b514c7103cb0656804cf599f3978439bf9bbf7"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/reverse-engineering/languages.md",
+    "sha256": "ba8e9c8f8df9351e9e85243574b8e2b0724e19e63d0f796294b0eef166f78b6d"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/reverse-engineering/patterns-ctf-2.md",
+    "sha256": "8d3b7d1fde1cd0917641877f2d39c6c2c9621859a4da426c39ebe6be2ec240ad"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/reverse-engineering/patterns-ctf-3.md",
+    "sha256": "76cfa06f01a4e8ed5cc91d1942c59aa65e70171989cd0064cd92b55961e0e716"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/reverse-engineering/patterns-ctf.md",
+    "sha256": "41edf048db36c3cb6ab1264f226df920adfa27923844a9ec5b40664ffe655c27"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/reverse-engineering/patterns.md",
+    "sha256": "be64443fcbd3d83d4a4f30ee4947310014a9bb0a26aace1126fd9a29ceb6b9c3"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/reverse-engineering/platforms-hardware.md",
+    "sha256": "123b5cc066bc09d7cd25312347aec79acd4476d8cec154ae951432f97912d2dc"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/reverse-engineering/platforms.md",
+    "sha256": "a0d87958d7430f7bb7095703340a359f0f8b102760ea0a0381fe48534acdaa48"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/reverse-engineering/references/ai-assisted-re.md",
+    "sha256": "f8fabe6926483dd9eae681e85edf2584856b5950054f7318b53230ca4dbd3cb2"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/reverse-engineering/references/nonpe-format-cookbook.md",
+    "sha256": "6e5fd5f6cdef266ff0c5951d6cdddb9c4711610e0372f269425796f36c36c5ad"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/reverse-engineering/references/ollvm-deobfuscation.md",
+    "sha256": "9bc48a802ec429ad1d7a1b097581c3c4988581576c6ef68e4e16f60e4b5afeed"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/reverse-engineering/references/re-agent-workflow.md",
+    "sha256": "b94ab671a3950b9256996e15255a4eb60b8da1d202948511248615c5d4114b7b"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/reverse-engineering/tools-advanced.md",
+    "sha256": "948f9a19fda1b922ddf526b74ffca50c441aca5b0c1dd777fab9c70f6f42e770"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/reverse-engineering/tools-dynamic.md",
+    "sha256": "c8b082d9be576e0811b2ef0bf192784ff2d04798cd0b8da437e019dbf8a45d04"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/reverse-engineering/tools.md",
+    "sha256": "212701fca9bd636c8d07fdca6765f99138014d7d59b25abe3458739387193f60"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/routing.md",
+    "sha256": "4e6b76b1f34e3b8c44597157289ecd312cfbc2b80ca3847342e2a58d55065050"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/routing_zh.md",
+    "sha256": "a1a1d7593a6aea770f0d6905c5763ca544610071c6de93081b49c8ded1359ea3"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/scripts/append-evidence.ps1",
+    "sha256": "3fa09dd75217b56b7313d523a7743d8fec7ca695e92e0675d5940ee014bce7cc"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/scripts/bootstrap-manifest.json",
+    "sha256": "8fb4fc5a08e3e7e937f80867b3f4b54232c05ee500d1703206c0135a93d43ed8"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/scripts/bootstrap-reverse.ps1",
+    "sha256": "784ed03f78774bd1c5b9712424f1847fc60a3c0e355c3ada6791f6140bffd28d"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/scripts/bootstrap-reverse.sh",
+    "sha256": "325fc1359a8b345fa8b79ad84ea3d33388ac3e69b77de2cb231eb3a2150ae690"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/scripts/case-guard.ps1",
+    "sha256": "543652feb14345052c19911babba9e0130c23be7cfa008fae49ebb50f6e0d9cf"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/scripts/case-guard.sh",
+    "sha256": "fb1116b1ecaeb84fe59bc909bea1bc37e67a3ec6b8c6d32419d3c007195805e1"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/scripts/case-init.ps1",
+    "sha256": "c386aeba66b9f569b6fd3747212ffbe8536946ffc7e64f9ca677e3dd487c2d6c"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/scripts/case-init.sh",
+    "sha256": "8875731f69bf78d6d28ad9fb28724029c3d6039c84866f5ce254da71830db620"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/scripts/consolidate-evidence.ps1",
+    "sha256": "873a906d62239f04f00bb6a8c120ad45502e018455ab80ba567c82dfa19126d3"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/scripts/consolidate_evidence.py",
+    "sha256": "ea7b7420041ee63e9d4307cd0eefb9fb2748c9201aa27e30f96be0c80e3d80d2"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/scripts/extract-summaries.ps1",
+    "sha256": "72c36b382c6b616a2fe21724553ffb4249416adde2ebe6eba188948ec390cc0d"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/scripts/lib/BootstrapSupplyChain.ps1",
+    "sha256": "3122a8742bdc24ed0ff89026394302d6d42ce3e07e336ef84561805318f04391"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/scripts/lib/HostRuntime.ps1",
+    "sha256": "d66001cdef3456d10d994a9211f436fc8093ec1801e70f1bbe580090fe0f4e63"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/scripts/lib/RouteScope.ps1",
+    "sha256": "0ea1fd0df4e195d124ea02961c53ea8796e47d6dbac9c86756db8a329d029179"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/scripts/lib/ToolDiscovery.ps1",
+    "sha256": "93b8e5f910c826b2196313529738b45e11ea974bd577f22c8a4d2ff8ec089171"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/scripts/lib/WorkRoot.ps1",
+    "sha256": "4d9fafefc02e0d8bebe3faf9146cfc64aa63c4a50623c98f7d0a664231dce50b"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/scripts/master-route.ps1",
+    "sha256": "62e0717ac85fcf3e7ee4f2e221abfec15cd5fd435ba4d1d77fadcf7651be4b6e"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/scripts/master-route.sh",
+    "sha256": "132e2079f96a1395030a4f597cc29673d25748e8865540c8b94381bc1faf1cd8"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/scripts/refresh-tool-index.ps1",
+    "sha256": "fd270dc427e6481139a9dc9402983f9fb076f14eca757e6381b0ea48c8269f11"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/scripts/refresh-tool-index.sh",
+    "sha256": "2e7808833ad64388128fd6b0b96b28d1a6ee0b2b77827c9a3377e51c5a18ef05"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/scripts/scan-leaks.ps1",
+    "sha256": "78276b8f9dd7b6749a0076c37a316eba5dc81a4191bbb2a4b75ac3bf31316706"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/scripts/smoke.ps1",
+    "sha256": "822326afdd140ea193279ba90a209d21ebce287f6b643eb279325866993f36fa"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/scripts/test-bash-workflow.sh",
+    "sha256": "6286551c6c088f23d4f5a811093e693555a377ec5f8f8aff211c6af4320800c6"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/scripts/test-bootstrap-codex-encoding.ps1",
+    "sha256": "83e72e09bd634ab4bcd6b2d2157e393785c91576d5516e4c5c0c002eb0918232"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/scripts/test-bootstrap-manifest.sh",
+    "sha256": "f8e632385603029c0ac537fea620862de34825a4cab4b2db69a31add398a0d14"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/scripts/test-bootstrap-supply-chain.ps1",
+    "sha256": "ce7c495bebe944bc921d75f21a4635668bc7064e34d394863be00cd93a8e560b"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/scripts/test-client-neutral-bootstrap.ps1",
+    "sha256": "9fcf169c9211f166b80b23f59788b4dbd15a6b0a88338bc951f4689bb78e58c9"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/scripts/test-client-neutral-bootstrap.sh",
+    "sha256": "6ca967132fbab769529f89c6ecc4f8f5bd89534a5072fa881776a682456d8dc3"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/scripts/test-consolidate-evidence.ps1",
+    "sha256": "09af4a456d8e4d90454ec3144ea9f8d7e707fa14e893b19f2ed96c9e9890d205"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/scripts/test-p0-friction.ps1",
+    "sha256": "1f12f58cec906edbb106c5af3f25adc4e7d487db8542cec773cd570b86bb5ce6"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/scripts/test-parse-contracts.ps1",
+    "sha256": "577556b1ca3479784398d2cb0eae4dc912bc300e5f95e3e6a306e1dd2805247b"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/scripts/test-routing.ps1",
+    "sha256": "539f313f4f176a595ef32c5c409192e4f056cbc2e1f7cadcfa969e9b47212770"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/scripts/test-routing.sh",
+    "sha256": "f8712598cc4c1578d1c1306c3965f613d0a25ef7143e8557fe667b159cc8214f"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/scripts/test-workflow-title-safety.ps1",
+    "sha256": "721502aa57269d62f93676d05504c126cac0d806ba3dd7120d2171a02de974b7"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/scripts/update-star-history.ps1",
+    "sha256": "ed0906d86ee7570151a2816c6ad1e72bb031f23b60868dee92d81bbfb210c619"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/scripts/verify-doc-facts.ps1",
+    "sha256": "17b03eb38a4a068ab4331b05018184a15357ed1fd1eafa9b2201b9c7b20bd2c2"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/scripts/verify-doc-links.py",
+    "sha256": "3962a044ab310e222c32689b5a6736d87327319b3b0ee924f52016ae55161c73"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/scripts/verify-repository-security.py",
+    "sha256": "79e57dce243b089a856f547c5cd0399c085c53610d364ebd6afa2d9088ebda15"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/scripts/verify-routing-coherence.ps1",
+    "sha256": "9a3cd6185403e44c376cbc08742ed5b81683264cec50df45fdf81699fa627482"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/supply-chain-security/SKILL.md",
+    "sha256": "21071161959f58aadfec2a0c6ccb4bdec6837af3df34fcaa988c7e6ccae42a33"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/supply-chain-security/references/cicd-pipeline-security.md",
+    "sha256": "6e8dbec4e75b25b293aa20cd3e2b910cf268b8d4f3975aef0d3960addfccf518"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/supply-chain-security/references/sbom-sca-methodology.md",
+    "sha256": "97c54111804c7539f1ddb5e9c06cd0fc6287c825a5dfb5abce3416d951ee8722"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/tests/routing-benchmark.json",
+    "sha256": "da484c70a88dc40b777cc373bebf0bc19604e10ca0f065a246be36a5ed591bf6"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/thick-client/SKILL.md",
+    "sha256": "714f7e2499b52b2f39a9973fbe6aafa2691454c3f36c7a3374b667aa25b2bfb5"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/thick-client/references/thick-client-checklist.md",
+    "sha256": "c9e593a932ffa3f45b5a183ca9c0f0852a607ca69dd44589bb73900c12e56682"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/threat-hunting/SKILL.md",
+    "sha256": "b14ecc481830186bd8780e529f57d64d8e6bb6568df3b2fdc58b3b1c7e2b01c9"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/threat-hunting/references/hunting-loop.md",
+    "sha256": "dc240430b3f5574b1852125940848efa459af069f90c5d0c29aed8eba4d1252a"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/threat-intelligence/SKILL.md",
+    "sha256": "dddfe7fd828f7602fa6d5db60e11ef2ceb77bc97e56fba5c49c4053a2fe08a27"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/threat-intelligence/references/x-public-intelligence.md",
+    "sha256": "ee26ab99963600c4ad8e5684bd28cc1adb2b4f9151bbb69040a34ca2f9d69708"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/tool-index.md.template",
+    "sha256": "fbb8be31126c12a217770c039b5367fe02084879631f2bec690d7581506933af"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/wifi-wireless/SKILL.md",
+    "sha256": "f73acb19e6e002450956ecbc90261d28081dcce85eaee8ae6c4568a9c92def22"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/wifi-wireless/references/wireless-lab-rules.md",
+    "sha256": "352cf65ea6fd0c1d959749da7c0d0bfe32a1a698d92c7d44877c6f94f15a5dae"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/windows-ad/SKILL.md",
+    "sha256": "5670e104212f7ca2b86bd7585df70e3850cd163fc5faed586f4412c88691cc5c"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/skills/windows-ad/references/ad-attack-paths.md",
+    "sha256": "effab5e97278f30d54285372d9b2e76678665645b732b5772428275042cc12bc"
+  },
+  {
+    "source": "reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "path": "resources/reverse-skill/LICENSE",
+    "sha256": "76c19981c8abef6fe96b021ba64bd22d68363f93f0b389a46378a0678ebcc460"
+  },
+  {
+    "source": "rea",
+    "commit": "2c1dee16df7c3839eb1bad115e10d102d6641ea2",
+    "path": "resources/rea/.agents/skills/reverse-engineer-anything/SKILL.md",
+    "sha256": "976e400f028618926c0b658ee50df79996f5f32402d33b49a23bfdbc232b45e6"
+  },
+  {
+    "source": "rea",
+    "commit": "2c1dee16df7c3839eb1bad115e10d102d6641ea2",
+    "path": "resources/rea/.agents/skills/reverse-engineer-anything/references/android-applications.md",
+    "sha256": "412d9cb462d85b07f6fdbc2453dd741ca3da2c0dbba627867d5624df94afa74c"
+  },
+  {
+    "source": "rea",
+    "commit": "2c1dee16df7c3839eb1bad115e10d102d6641ea2",
+    "path": "resources/rea/.agents/skills/reverse-engineer-anything/references/connection-and-recovery.md",
+    "sha256": "a33760c84ae100f6ffd27d666e515956c5014ac33a6ee2414807833ae666a2b1"
+  },
+  {
+    "source": "rea",
+    "commit": "2c1dee16df7c3839eb1bad115e10d102d6641ea2",
+    "path": "resources/rea/.agents/skills/reverse-engineer-anything/references/evidence-workflows.md",
+    "sha256": "2bdee98a843d018cf850c706111bb74c459ba8640da00799e9208122e4d5ab80"
+  },
+  {
+    "source": "rea",
+    "commit": "2c1dee16df7c3839eb1bad115e10d102d6641ea2",
+    "path": "resources/rea/.agents/skills/reverse-engineer-anything/references/javascript-applications.md",
+    "sha256": "aaa78502a3e95268f6269e75f373908045291fedf6ddd106001555ed06bb2bf6"
+  },
+  {
+    "source": "rea",
+    "commit": "2c1dee16df7c3839eb1bad115e10d102d6641ea2",
+    "path": "resources/rea/.agents/skills/reverse-engineer-anything/references/native-and-artifacts.md",
+    "sha256": "1d2ac5f64feb5ad6ef8b98d803d570e1c48aa588281ff91a4bbf50d40f924450"
+  },
+  {
+    "source": "rea",
+    "commit": "2c1dee16df7c3839eb1bad115e10d102d6641ea2",
+    "path": "resources/rea/.agents/skills/reverse-engineer-anything/references/runtime-observation.md",
+    "sha256": "fea85e2005a8fd1c86a946eeede24c20e57592a1deb36576b45216e9854803c8"
+  },
+  {
+    "source": "rea",
+    "commit": "2c1dee16df7c3839eb1bad115e10d102d6641ea2",
+    "path": "resources/rea/LICENSE",
+    "sha256": "798f9e4d18e49b30bf2f12696c8ced73dc4e1413da375a333d01281543a1ea8b"
+  },
+  {
+    "source": "rea",
+    "commit": "2c1dee16df7c3839eb1bad115e10d102d6641ea2",
+    "path": "resources/rea/THIRD_PARTY_NOTICES.md",
+    "sha256": "c7db9545d34eb4dac7c0e270cb1a639dfd156d4d462a41bcf65cde71369c222c"
+  }
+]

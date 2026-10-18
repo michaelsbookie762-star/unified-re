@@ -1,0 +1,244 @@
+{
+  "schema_version": 1,
+  "recorded_at": "2026-10-16T16:43:09.092267+00:00",
+  "workspace": "C:\\Users\\Administrator\\Documents\\ChatGPT\\TH Test\\unified-re",
+  "original_workspace": "C:\\Users\\Administrator\\Documents\\ChatGPT\\TH Test",
+  "upstream": {
+    "reverse-skill": {
+      "url": "https://github.com/zhaoxuya520/reverse-skill",
+      "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+      "license": "MIT",
+      "working_tree_status": ""
+    },
+    "rea": {
+      "url": "https://github.com/morluto/rea",
+      "commit": "2c1dee16df7c3839eb1bad115e10d102d6641ea2",
+      "license": "MIT",
+      "working_tree_status": ""
+    }
+  },
+  "original_reverse_skill": {
+    "path": "C:\\Users\\Administrator\\.codex\\reverse-skill",
+    "commit": "7e2097fd90d25c2f976f6eba26d6c00aa88051df",
+    "status": "?? cloakbrowser/"
+  },
+  "runtime": {
+    "python": "3.13.15",
+    "node": "v24.14.1",
+    "mcp_python": "2.3.0",
+    "onnxruntime": "1.31.0",
+    "numpy": "2.5.4",
+    "tokenizers": "0.23.3",
+    "rea": {
+      "version": "6.5.0",
+      "npm_integrity": "sha512-C6BG7LyrAdR74mSjertM6PrxJkcNZ2bfQNOJornPo9erDEp2tyPRVYPnV5Yodr+1RqewCQla68WulXlVnveD+A==",
+      "source_commit": null,
+      "note": "Docs/source snapshot and published npm integrity are pinned independently; no unproven commit-to-package identity"
+    }
+  },
+  "catalog": {
+    "version": "3e83112b0856f4fd21c00d25f8279a8f7910a26c1303fa07e33aebc66af4cdf6",
+    "skills": 52,
+    "tool_definitions": 293,
+    "contract_reviewed_tool_count": 17,
+    "resource_count": 424,
+    "resources_digest": "bd237790eb9de87814561f3e93fb7023b5b2d3fa3cd5ec6cf7209378d2850c25"
+  },
+  "model": {
+    "repository": "Xenova/paraphrase-multilingual-MiniLM-L12-v2",
+    "revision": "2c4055b12046f11709e9df2c122e59ffbdc2f900",
+    "pooling": "attention-mask-mean",
+    "normalization": "l2",
+    "dimension": 384,
+    "license": "Apache-2.0 (upstream sentence-transformers model)",
+    "files": [
+      {
+        "path": "config.json",
+        "sha256": "05b570bff786faa5c4604152aa16f19f77ed6dfc31e47dd0f3dd987078693ac7",
+        "bytes": 673
+      },
+      {
+        "path": "tokenizer.json",
+        "sha256": "b60b6b43406a48bf3638526314f3d232d97058bc93472ff2de930d43686fa441",
+        "bytes": 17082913
+      },
+      {
+        "path": "tokenizer_config.json",
+        "sha256": "3f5961b9ac86288cccdb97f32fb848d6187c78e1603958c53f3ea1f296b7d8a2",
+        "bytes": 496
+      },
+      {
+        "path": "onnx/model_quantized.onnx",
+        "sha256": "66fc00f5f29afcaff34092e1bdd20008ca3918265a82fb9695a551e510cc4ebc",
+        "bytes": 118308126
+      },
+      {
+        "path": "README.md",
+        "sha256": "1faca2377fb36a7c5ee603ffdd170cf93126be37e7b3b422d319b8ed34081e73",
+        "bytes": 1151
+      }
+    ]
+  },
+  "embedding_pipeline": {
+    "version": 1,
+    "chunk_tokens": 256,
+    "chunk_stride": 32,
+    "pooling": "attention-mask-mean",
+    "normalization": "l2",
+    "onnxruntime": "1.31.0",
+    "vector_dtype": "float32"
+  },
+  "model_fingerprint": "e862cc6145a53c27da731a3bf33b2b663e86fde53ac4282f4fd54a05453a128c",
+  "index_representation": "standalone-purpose-and-token-passages-v2",
+  "code_files": [
+    {
+      "path": ".agents/skills/unified-re/SKILL.md",
+      "sha256": "7c0ccc430ccfbe08e8900088b0393bcb4216c053a6af9e844b8b7ce27278330e"
+    },
+    {
+      "path": ".codex/config.toml",
+      "sha256": "093df2e8951801fbc12518f830b0c296eae03e7cc4da2e419d64627a9158bfcf"
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "42de65111f58427998097a865bc4271ad819a981426bd149a26c63324bdea5eb"
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "685770908ff06a4f37189b755eddbc867fa728a8cfdd06f96dac581aa81cb58b"
+    },
+    {
+      "path": "requirements.lock",
+      "sha256": "4213c15137fd6bfe3db2c1d73b7d750fc5b5520041151ef7b03453c80984fde4"
+    },
+    {
+      "path": "scripts/build_catalog.py",
+      "sha256": "98150ec858b84c1ee0d9dd98e6f375052e9d980b4a37201cd001715f24a3f3e0"
+    },
+    {
+      "path": "scripts/demo.py",
+      "sha256": "b9645a1e4bcf1a6926cebc165187900733e3202d17dd6a83317c40383f2ea18f"
+    },
+    {
+      "path": "scripts/download_model.py",
+      "sha256": "0daaaace461631d24258bb08e968bcad6ada2a3d05bd1b6aef8f72abeafcd2bc"
+    },
+    {
+      "path": "scripts/evaluate_retrieval.py",
+      "sha256": "cbdc91bcd96ebde31ef20f5636e4cebdfff3c3aa302748e132916090d7054eef"
+    },
+    {
+      "path": "scripts/fixtures.py",
+      "sha256": "2bb6aada8b1a8269a5dfe12c5dd8d98881cd2c47dd6e685a29d5a47846aacc4e"
+    },
+    {
+      "path": "scripts/index.py",
+      "sha256": "1cc094d976444d835e0f1d37fcc5dd4ec72ceccd686763ee7d8632e9b6f1005d"
+    },
+    {
+      "path": "scripts/probe_backends.py",
+      "sha256": "4abb8ad9b9df2c846664e1251cbe67e700ac0e9a99d1d5f3701d4a8c079eb878"
+    },
+    {
+      "path": "scripts/record_delivery.py",
+      "sha256": "ae48dd39fe104264580270abe6732c9f5a6fd6f347d09acab86efc55265ec035"
+    },
+    {
+      "path": "scripts/serve.py",
+      "sha256": "96d14b0c28eb1f1bee2875b3596ca7a092a7fadbd19900eac5794dd7f481b1e5"
+    },
+    {
+      "path": "scripts/verify_rea.py",
+      "sha256": "f7f0a580d2139e65cc21f0ee1e3a88ab73cb5765f97e1d2368011277a7b31602"
+    },
+    {
+      "path": "setup.ps1",
+      "sha256": "f56d4b4c5a57e6f8f05ffef1d008f82f2058926c5a679ec26b4d508d70e5e40a"
+    },
+    {
+      "path": "start.ps1",
+      "sha256": "af5bf9f64b4180c5a8ce30fd12bdd1ebe049693a2064f9321455fab7a897763c"
+    },
+    {
+      "path": "tests/fixture_mcp.py",
+      "sha256": "887aff42d7170516bbc8f3f32223dedb4688cdda2dc04f7a8d876d774e301083"
+    },
+    {
+      "path": "tests/test_adjudication.py",
+      "sha256": "471a2aad99c57ed563ad93264b76fa2b05708ccd7092d61b23f11c1d6393c850"
+    },
+    {
+      "path": "tests/test_gateway.py",
+      "sha256": "6579c9d1299a4f09a8104595bf5838afa034811aa3c07772fb0186ccf2a196f1"
+    },
+    {
+      "path": "tests/test_retrieval.py",
+      "sha256": "e05c02e0c13f387ebe0993078e88e64727ae4c5f808f0c81cd4dcf760954dfbd"
+    },
+    {
+      "path": "tests/test_transport.py",
+      "sha256": "38137d6cc9014f028ebb9a0bf2674c14d55b39a25632a7538fed7bb48a0fba54"
+    },
+    {
+      "path": "unified_re/__init__.py",
+      "sha256": "3838acf2e76f3a80de725b28e9765f55530d073282252b3982101675470766f9"
+    },
+    {
+      "path": "unified_re/adjudication.py",
+      "sha256": "5c657d864dbd727579cc22d728d760d63fe1d757ddc5f7f3c3d8b761c6ffbebc"
+    },
+    {
+      "path": "unified_re/common.py",
+      "sha256": "89125122497bd5812dfe072d3dd6395aaa4bf07bb25dd1b1d338dedb2c8bca49"
+    },
+    {
+      "path": "unified_re/engine.py",
+      "sha256": "39b5b430ede3b9c1258ddad1dc2c916ed5ceca690453d301c2531b5529936f17"
+    },
+    {
+      "path": "unified_re/retrieval.py",
+      "sha256": "d1704ea58b1f9960310774b24ca75ff01eb9329d6f50b867b28b61c64c8d03e5"
+    },
+    {
+      "path": "unified_re/server.py",
+      "sha256": "e0df62b666fceb044b55ea8e8a11be5e9cc8459183e0f5cd24f7115b2d38744c"
+    },
+    {
+      "path": "unified_re/state.py",
+      "sha256": "536e998e6f53f8b46c3381f12a7d44ef7447eae5e3b43fee5f5af35a863e20fc"
+    },
+    {
+      "path": "unified_re/targets.py",
+      "sha256": "713fc6dcca9a6e2dd24c1c9e458e36fd9afbfab182ca9cd5897d0cca04fa7094"
+    },
+    {
+      "path": "unified_re/transport.py",
+      "sha256": "fd01b6756bae49e918fd4df1d8850247d1e662dad1693446bffa8b1ca01a5889"
+    },
+    {
+      "path": "uv.lock",
+      "sha256": "42f17e953760c87dc9cc440387c11d07375b1d0a3154526c1c9ea8a68481ef99"
+    }
+  ],
+  "code_tree_digest": "a769cd36a6b2828366562e1a42e38446ed778c1f730ee831b79ed46f1696a0e0",
+  "verification": {
+    "tests": {
+      "tests": 51,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "retrieval_cases": 9,
+    "real_rea_checks": 7,
+    "real_gateway_checks": 24,
+    "powershell_launcher_verified": true
+  },
+  "limits": [
+    "no real native engine execution verified",
+    "direct shared GUI/database/browser/device bindings remain unverified",
+    "fresh Codex desktop session discovery unverified",
+    "retrieval signals are not calibrated confidence",
+    "cooperative locks are not an OS security sandbox"
+  ],
+  "index_file_sha256": "7d50117ef9fc98e9f0f57635ce420acfa8bb4970bff3342bd546c16689dcdbfd"
+}

@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "sources": {
+    "rea": {
+      "command": "node",
+      "args": ["node_modules/rea-agents/scripts/rea.mjs", "mcp"],
+      "scope": "task",
+      "call_timeout": 120,
+      "env_names": []
+    }
+  }
+}

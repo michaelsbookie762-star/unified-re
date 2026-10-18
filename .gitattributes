@@ -1,0 +1,2 @@
+# Preserve upstream bytes for resource-manifest.json verification on checkout.
+resources/** -text
