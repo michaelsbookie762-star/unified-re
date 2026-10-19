@@ -18,8 +18,9 @@ def constraints(context):
         raise GateError("unsupported", "Host platform is not supported by this registry")
     if context.get("read_only", True) and set(context.get("required_effects", [])) - {"read", "session_write"}:
         raise GateError("policy_conflict", "Required effects contradict read_only constraint")
-    if "read_local" not in context.get("permissions", []):
-        raise GateError("permission_required", "This local target needs an explicit read_local scope from the user request")
+    permission = "web_read" if context.get("target_type") == "web" else "read_local"
+    if permission not in context.get("permissions", []):
+        raise GateError("permission_required", f"This target needs explicit {permission} scope from the user request")
     if context.get("required_provider") in context.get("excluded_providers", []):
         raise GateError("policy_conflict", "The same provider is both required and excluded")
     if context.get("no_commercial") and context.get("required_provider") in ("ida", "hopper", "jeb"):
@@ -79,6 +80,9 @@ def make_plan(catalog, request, target, context, retrieved, availability, provid
     if retrieved["status"] == "no_match":
         raise GateError("no_match", "No relevant capability; no nearest-result fallback")
     target_type = target["type"]
+    if target_type == "web":
+        from .browser import make_browser_plan
+        return make_browser_plan(catalog, request, target, context, retrieved, availability)
     selected_id = catalog["default_operations"].get(target_type)
     if context.get("capability"):
         options = [t for t in catalog["tools"] if t["reviewed"] and t["stage"] == "analyze" and context["capability"] in t["capabilities"] and target_type in t["target_types"]]

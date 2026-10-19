@@ -22,6 +22,17 @@
 
 Codex 可以用 `$unified-re` 指定 Skill；Pi 可以用 `/skill:unified-re`。已有 reverse-skill 保留，明确指定 unified-re 可避免由旧入口接管。
 
+## 使用 CloakBrowser
+
+```text
+请使用 unified-re 的 CloakBrowser，观察这个我已授权访问的网页：https://example.com/
+先 task_plan，再按阶段导航、读取页面快照并给出观察报告。
+```
+
+本地文件路径走 REA；HTTP(S) URL 走独立 CloakBrowser，`context.permissions` 使用 `web_read`，只声明你已给的访问授权。网页会执行页面脚本。AI 网关目前只执行计划内导航和快照；点击、填表等本地交互通过已授权的专项脚本完成。
+
+想手动打开窗口，双击本项目的 `cloakbrowser/start.cmd`。不要接入日常 Chrome 配置或登录状态。详见 [浏览器运行说明](cloakbrowser/README.md)。
+
 ## 如何触发语义检索
 
 | 调用 | 作用 |
@@ -65,8 +76,10 @@ cd C:/path/to/unified-re
 ./.venv/Scripts/python.exe -X utf8 scripts/demo.py
 ```
 
-已验证真实 REA 的本地 JavaScript 和归档样本流程。293 个工具定义可检索，其中 17 个 REA 操作已映射执行契约；其余元数据不代表已经可以执行。原生分析引擎尚未完成真实执行验收。**未接入 CloakBrowser。**
+已验证真实 REA 的本地 JavaScript 和归档样本流程。318 个工具定义可检索，其中 17 个 REA 操作及 3 个浏览器操作完成契约审查（浏览器关闭仅用于内部清理）；其余元数据不代表可执行。CloakBrowser 的两处部署已通过实际浏览器与 MCP 验证；原生分析引擎仍未完成真实执行验收。
 
 截至 2026-10-19，两份全局配置已完成真实协议和检索调用验证；已经打开的 GUI 聊天需要重载，不能据此宣称旧会话已更新工具。全局接入步骤符合 [Codex 官方 MCP 文档](https://learn.chatgpt.com/docs/extend/mcp?surface=cli) 和 [Skill 发现规则](https://learn.chatgpt.com/docs/build-skills)。
 
 按需查看：[完整技术说明](TECHNICAL.zh-CN.md)、[原实施验收](reports/验收报告.md)、[来源版本快照](SOURCES.lock.json)、[许可证与来源](THIRD_PARTY_NOTICES.md)。来源锁中的路径、代码摘要和原验收结果是历史快照，当前提交的变化及验证另见 [全局接入与发布记录](reports/全局接入与发布-2026-10-19.md)。
+
+环境检查结论：核心运行环境和浏览器可用，全部专项分析环境尚未配齐。具体已验证项、缺失项和限制见 [CloakBrowser 与环境验收](reports/CloakBrowser-环境验收.md)。

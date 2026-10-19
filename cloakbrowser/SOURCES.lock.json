@@ -1,0 +1,26 @@
+{
+  "wrapper": "0.5.12",
+  "official_playwright_mcp": "0.0.83",
+  "chromium": "146.0.7680.177.5",
+  "platform": "windows-x64",
+  "binary_manifest_signature": "Ed25519 verified against wrapper-pinned public key",
+  "download_archive_sha256": "b213795cb32c3169f766c74ce1d0275fc89d3df256de39c04da7fb4c23b7fdbe",
+  "installed_payload_checks": [
+    {
+      "file": "chrome.exe",
+      "archive_sha256": "03f53661a5c47e7b0a661bee2bce8a0d302b7a60834c328df417561fa0636d80",
+      "both_deployments_match": true
+    },
+    {
+      "file": "chrome.dll",
+      "archive_sha256": "ed7009a70d76fa4da222a5b37c34012d77fcc04092ef8df5fb572062940fa4dd",
+      "both_deployments_match": true
+    }
+  ],
+  "binary_redistributed": false,
+  "npm_integrity": "package-lock.json",
+  "limitations": [
+    "No live anti-bot detection or third-party bypass claim",
+    "No user browser profile or credentials used"
+  ]
+}

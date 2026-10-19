@@ -7,3 +7,7 @@
 - **Python/npm dependencies** — retain each package's own license and attribution; `requirements.lock`, `uv.lock` and `package-lock.json` record exact dependency versions and integrity hashes. This integration does not relicense those packages.
 
 No IDA, Hex-Rays, Hopper, JEB or other separately licensed analysis engine is bundled or installed by this project. Existing local bridge command paths are machine-specific configuration and do not grant a license or establish engine readiness.
+
+- **CloakBrowser wrapper 0.5.12** — [CloakHQ/CloakBrowser](https://github.com/CloakHQ/CloakBrowser), MIT; retained license: `licenses/cloakbrowser-wrapper-MIT.txt`. `cloakbrowser/package-lock.json` pins the npm package and its integrity.
+- **Official Playwright MCP 0.0.83** — [microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp), Apache-2.0; retained license: `licenses/playwright-mcp-APACHE-2.0.txt`. The adapter uses its original MCP tool contracts and CloakBrowser's documented launch options.
+- **CloakBrowser compiled Chromium 146.0.7680.177.5** — separately licensed public build. This repository distributes dependency/setup instructions, not the browser binary. Its cache is Git-ignored. Download from official channels and follow the [official binary license](https://github.com/CloakHQ/CloakBrowser/blob/main/BINARY-LICENSE.md); the wrapper's MIT license does not relicense the compiled browser. Deployment signature, archive and installed executable checks are recorded in `cloakbrowser/SOURCES.lock.json`.

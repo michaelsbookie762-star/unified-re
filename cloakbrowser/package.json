@@ -1,0 +1,21 @@
+{
+  "name": "unified-re-cloakbrowser-local",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "install:browser": "node install.mjs",
+    "start": "node open.mjs",
+    "test:e2e": "playwright test",
+    "mcp": "node mcp.mjs"
+  },
+  "dependencies": {
+    "cloakbrowser": "0.5.12",
+    "playwright-core": "1.64.0",
+    "@playwright/mcp": "0.0.83",
+    "@modelcontextprotocol/sdk": "1.30.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.64.0"
+  }
+}

@@ -1,6 +1,14 @@
 {
   "schema_version": 1,
   "sources": {
+    "cloakbrowser": {
+      "command": "node",
+      "args": ["cloakbrowser/mcp.mjs"],
+      "scope": "task",
+      "startup_timeout": 40,
+      "call_timeout": 90,
+      "env_names": []
+    },
     "rea": {
       "command": "node",
       "args": ["node_modules/rea-agents/scripts/rea.mjs", "mcp"],

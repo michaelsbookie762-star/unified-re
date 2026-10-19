@@ -1,3 +1,5 @@
+> 浏览器扩展更新：已增加授权 HTTP(S) URL 的 CloakBrowser 观察路径及独立观察证据。最新接口、权限和环境结论见 [CloakBrowser 与环境验收](reports/CloakBrowser-环境验收.md)。下文原始实施快照中的本地目标范围与未接入浏览器结论不覆盖此后续扩展。
+
 > 这是原实现的完整技术说明，保留供查阅。日常用法和当前接入范围请先看 [简明使用说明](README.zh-CN.md)；历史验收记录不代表 Agent 当前已连接。
 
 # REA 与 reverse-skill 本地统一系统

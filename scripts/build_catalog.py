@@ -159,6 +159,8 @@ def main():
     capability_index = {cap: {"skills": [s["id"] for s in skills if cap in s["capabilities"]], "tools": [t["id"] for t in tools if cap in t["capabilities"]], "interchangeability": "not inferred; requires verified behavior and contracts"} for cap in sorted({c for s in skills for c in s["capabilities"]} | {c for t in tools for c in t["capabilities"]})}
     # Shared across MCP and Skill. Snapshots are explicitly not live readiness.
     catalog = {"schema_version": 1, "resource_base": "project-root; outside automatic Skill discovery", "resources_digest": digest(resource_files), "sources": provenance, "skills": skills, "tools": tools, "capabilities": capability_index, "relations": relations, "workflow": workflow, "default_operations": operations, "rules": rules}
+    from scripts.cloak_catalog import extend_catalog
+    extend_catalog(catalog)
     catalog["version"] = digest({k: v for k, v in catalog.items() if k != "version"})
     write_json(SKILL / "catalog.json", catalog)
     write_json(SKILL / "resource-manifest.json", resource_files)

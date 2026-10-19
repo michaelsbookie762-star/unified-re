@@ -15,6 +15,9 @@ def denied(path):
 def identify(path, expected_type=None):
     if not path:
         raise GateError("needs_context", "An explicit local target path is required")
+    if "://" in path:
+        from .browser import identify_url
+        return identify_url(path, expected_type)
     supplied = Path(path)
     if not supplied.is_absolute():
         raise GateError("needs_context", "Target path must be absolute")

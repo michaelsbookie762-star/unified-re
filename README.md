@@ -6,5 +6,6 @@
 
 - Windows / Python 3.13 / Node.js；项目隔离依赖和本地模型。
 - 一个主 Skill，共享能力目录，stdio MCP。
+- CloakBrowser 独立浏览器用于授权 URL 的页面观察，与 REA 本地静态分析分开规划和保留来源。
 - 已验证真实 REA 的 JavaScript / 归档流程；不宣称所有原生引擎或索引工具都可执行。
 - 来源和许可证见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。本项目不包含商业分析器、模型权重、账户凭据和用户分析数据。

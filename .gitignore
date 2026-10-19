@@ -18,3 +18,9 @@ __pycache__/
 *.bak
 .env
 .env.*
+/cloakbrowser/cache/
+/cloakbrowser/output/
+/cloakbrowser/test-results/
+/cloakbrowser/playwright-report/
+/reports/*.log
+/work/

@@ -44,18 +44,33 @@ class Engine:
             if not connection.alive:
                 raise GateError("disconnected", "Session lost; reconnect explicitly")
             return connection
-        connection = self.connection_factory(self.config["sources"]["rea"])
+        source = task.get("source", "rea")
+        source_config = self.config["sources"].get(source)
+        if source_config is None and source == "cloakbrowser":
+            source_config = read_json(ROOT / "examples/backends.rea-only.json")["sources"][source]
+        if source_config is None:
+            raise GateError("missing_dependency", "No configuration for the planned backend", source=source)
+        source_config = dict(source_config)
+        if source == "cloakbrowser":
+            if sys.platform != "win32":
+                raise GateError("unsupported", "This pinned CloakBrowser deployment was validated for Windows only")
+            if source_config.get("scope") != "task" or source_config.get("args") != ["cloakbrowser/mcp.mjs"]:
+                raise GateError("policy_conflict", "CloakBrowser requires the reviewed task-owned local launcher; shared/CDP substitutions need a separate reviewed adapter")
+            if not (ROOT / "cloakbrowser/node_modules/@playwright/mcp/index.js").is_file():
+                raise GateError("missing_dependency", "Install the pinned cloakbrowser project dependencies first")
+            source_config["public_env"] = {**source_config.get("public_env", {}), "CLOAK_ALLOWED_ORIGIN": task["target"]["origin"],
+                                          "CLOAK_OUTPUT_DIR": str(ROOT / "cloakbrowser/output/tasks" / f"{task['id']}-g{task['generation']}")}
+        connection = self.connection_factory(source_config)
         try:
-            source_config = self.config["sources"]["rea"]
             resources = source_config.get("resource_keys", [])
             if source_config.get("scope") == "shared" and not resources:
                 raise GateError("needs_context", "Shared backend instance has no canonical resource identity")
-            self.store.acquire(task["id"], resources or [f"rea-owned-process:{task['id']}:generation-{task['generation']}"])
+            self.store.acquire(task["id"], resources or [f"{source}-owned-process:{task['id']}:generation-{task['generation']}"])
             await connection.start()
             # The live definition must match the reviewed catalog, not just name.
             live = {t["name"]: digest(t) for t in connection.tools}
             for tool in self.tools.values():
-                if tool["source"] == "rea" and tool["reviewed"] and live.get(tool["name"]) != tool["contract_hash"]:
+                if tool["source"] == source and tool["reviewed"] and live.get(tool["name"]) != tool["contract_hash"]:
                     raise GateError("stale_catalog", "Live tool contract differs from indexed reviewed contract", tool=tool["id"])
         except BaseException:
             await connection.close()
@@ -64,12 +79,31 @@ class Engine:
         self.connections[task["id"]] = connection
         return connection
 
+    async def discover(self, task, connection):
+        source = task.get("source", "rea")
+        operation = "browser_snapshot" if source == "cloakbrowser" else "binary_session"
+        raw = await connection.call(operation, {})
+        reference = self.record(task, source + "::" + operation, {}, raw, "availability_refresh")
+        if source == "cloakbrowser":
+            if raw.get("isError"):
+                raise GateError("backend_failure", "Owned CloakBrowser failed its live snapshot check", reference=reference)
+            return raw, {t["name"]: {"available": True, "basis": "live owned browser snapshot and tools/list; target navigation not yet proven"} for t in connection.tools}, reference
+        return raw, expand_availability(raw), reference
+
     def record(self, task, tool_id, arguments, raw, category="call"):
         events = self.store.events(task["id"])
         path = VAR / "results" / task["id"] / f"{len(events):06d}.json"
-        evidence = raw.get("structuredContent", {})
+        evidence = raw.get("structuredContent") or {}
+        observation = None
         ref = {"record": str(path.relative_to(ROOT)).replace("\\", "/"), "source": tool_id.split("::", 1)[0], "tool_id": tool_id, "target_sha256": task["target"]["sha256"], "generation": task["generation"], "plan_revision": task["revision"], "isError": raw.get("isError", False), "evidence_id": evidence.get("evidence_id")}
-        write_json(path, {"observed_at": now(), "reference": ref, "target": task["target"], "arguments": arguments, "raw_mcp_result": raw})
+        if ref["source"] == "cloakbrowser":
+            from .browser import observed_url, snapshot_observation
+            observation = snapshot_observation(task, raw)
+            ref.update({"evidence_id": "browser_obs_" + digest({"task": task["id"], "generation": task["generation"], "sequence": len(events), "raw": raw}),
+                        "evidence_kind": "gateway browser observation; not REA Evidence", "observed_url": observed_url(raw)})
+            if observation and observation.get("sha256"):
+                ref["snapshot_sha256"] = observation["sha256"]
+        write_json(path, {"observed_at": now(), "reference": ref, "target": task["target"], "arguments": arguments, "raw_mcp_result": raw, "observation": observation})
         self.store.event(task["id"], category, ref)
         if ref["evidence_id"] and not ref["isError"]:
             task["evidence"].append(ref)
@@ -81,6 +115,8 @@ class Engine:
 
     async def plan(self, request, target_path=None, context=None):
         context = dict(context or {})
+        if target_path and "://" in target_path:
+            context.setdefault("target_type", "web")
         self.bind_platform(context)
         context.setdefault("read_only", True)
         constraints(context)
@@ -88,13 +124,11 @@ class Engine:
         if retrieved["status"] == "no_match":
             return {**retrieved, "unresolved": ["No applicable capability"]}
         target = identify(target_path, context.get("target_type"))
-        task = self.store.create({"request": request, "target": target, "context": context, "status": "planning", "plan": None})
+        task = self.store.create({"request": request, "target": target, "source": "cloakbrowser" if target["type"] == "web" else "rea", "context": context, "status": "planning", "plan": None})
         try:
             connection = await self.connect(task)
-            raw = await connection.call("binary_session", {})
-            ref = self.record(task, "rea::binary_session", {}, raw, "discovery")
-            availability = expand_availability(raw)
-            plan = make_plan(self.catalog, request, target, context, retrieved, availability, rea_result(raw).get("analysis_provider_candidates", []))
+            raw, availability, ref = await self.discover(task, connection)
+            plan = make_plan(self.catalog, request, target, context, retrieved, availability, (rea_result(raw) or {}).get("analysis_provider_candidates", []))
             task.update({"status": "ready", "plan": plan, "discovery": ref, "availability_observed_at": now()})
             self.store.save(task)
             return self.view(task)
@@ -168,6 +202,10 @@ class Engine:
             jsonschema.validators.validator_for(schema)(schema).validate(arguments)
         except jsonschema.ValidationError as error:
             raise GateError("invalid_arguments", "Tool parameters do not match the original input schema", path=list(error.absolute_path), validator=error.validator)
+        if task["target"]["type"] == "web":
+            from .browser import bind_browser_arguments
+            bind_browser_arguments(task, tool, arguments)
+            return
         current = identify(task["target"]["path"], task["target"]["type"])
         if current["sha256"] != task["target"]["sha256"]:
             raise GateError("target_changed", "Target content changed since planning; explicit replan required")
@@ -224,9 +262,7 @@ class Engine:
             self.active[task_id] = asyncio.current_task()
             try:
                 connection = await self.connect(task)
-                raw_discovery = await connection.call("binary_session", {})
-                discovery_ref = self.record(task, "rea::binary_session", {}, raw_discovery, "availability_refresh")
-                availability = expand_availability(raw_discovery)
+                raw_discovery, availability, discovery_ref = await self.discover(task, connection)
                 planned_provider = task["plan"].get("selected_provider")
                 if planned_provider and "rea::open_binary" in task["completed_steps"]:
                     binding = rea_result(raw_discovery).get("analysis_provider_binding") or {}
@@ -242,6 +278,16 @@ class Engine:
                 raw = raw_discovery if tool_id == "rea::binary_session" else await connection.call(tool["name"], arguments)
                 # Preserve unmodified content, structuredContent and isError.
                 reference = self.record(task, tool_id, arguments, raw)
+                if task.get("source") == "cloakbrowser" and not raw.get("isError") and task["stage_index"] > 0:
+                    from .browser import identify_url
+                    actual = reference.get("observed_url")
+                    if not actual:
+                        raise GateError("contract_mismatch", "Browser reply did not identify the observed page URL", reference=reference)
+                    if identify_url(actual)["origin"] != task["target"]["origin"]:
+                        raise GateError("target_mismatch", "Observed page left the authorized origin", reference=reference)
+                    observation = read_json(ROOT / reference["record"]).get("observation")
+                    if observation and observation["status"] != "observed":
+                        raise GateError("contract_mismatch", "Browser artifact was not an owned readable snapshot; raw reply retained", reference=reference, observation=observation)
                 if not raw.get("isError", False) and tool["definition"].get("outputSchema"):
                     schema = tool["definition"]["outputSchema"]
                     try:
@@ -257,7 +303,8 @@ class Engine:
                 elif tool_id not in task["completed_steps"]:
                     task["completed_steps"].append(tool_id)
                 self.store.save(task)
-                return {"status": "backend_error" if raw.get("isError") else "succeeded", "task_id": task_id, "revision": revision, "generation": task["generation"], "reference": reference, "availability_reference": discovery_ref, "raw_mcp_result": raw}
+                return {"status": "backend_error" if raw.get("isError") else "succeeded", "task_id": task_id, "revision": revision, "generation": task["generation"], "reference": reference, "availability_reference": discovery_ref, "raw_mcp_result": raw,
+                        "observation": read_json(ROOT / reference["record"]).get("observation")}
             except asyncio.CancelledError:
                 task["status"] = "cancelled"
                 self.store.event(task_id, "cancelled", {"tool_id": tool_id, "partial_result": "unknown; request cancelled before a complete reply"})
@@ -308,9 +355,22 @@ class Engine:
 
     async def drop_connection(self, task_id):
         connection = self.connections.pop(task_id, None)
-        if connection:
-            await connection.close()
-        self.store.release(task_id)
+        try:
+            if connection:
+                task = self.store.get(task_id)
+                if task.get("source") == "cloakbrowser" and connection.alive:
+                    try:
+                        # Close only this task's ephemeral page before nested stdio
+                        # transports reach the host's two-second process deadline.
+                        raw = await asyncio.wait_for(connection.call("browser_close", {}), timeout=1.25)
+                        self.record(task, "cloakbrowser::browser_close", {}, raw, "owned_browser_cleanup")
+                        if not raw.get("isError"):
+                            self.store.release(task_id)
+                    except Exception:
+                        self.store.event(task_id, "owned_browser_cleanup_incomplete", {"resource_state": "transport shutdown will close the owned process tree"})
+                await connection.close()
+        finally:
+            self.store.release(task_id)
 
     async def cancel(self, task_id):
         task = self.store.get(task_id)
@@ -339,17 +399,18 @@ class Engine:
             raise GateError("needs_context", "Old shared-instance leases require ownership reconciliation", resources=foreign_leases)
         await self.drop_connection(task_id)
         merged_context = {**task["context"], **(context or {})}
+        if target_path and "://" in target_path:
+            merged_context.setdefault("target_type", "web")
         self.bind_platform(merged_context)
         constraints(merged_context)
         target = identify(target_path or task["target"]["path"], merged_context.get("target_type"))
         old = {"revision": task["revision"], "generation": task["generation"], "target": task["target"]}
-        task.update({"revision": revision + 1, "generation": task["generation"] + 1, "target": target, "context": merged_context, "owner": self.store.owner, "stage_index": 0, "status": "planning", "completed_steps": []})
+        task.update({"revision": revision + 1, "generation": task["generation"] + 1, "target": target, "source": "cloakbrowser" if target["type"] == "web" else "rea", "context": merged_context, "owner": self.store.owner, "stage_index": 0, "status": "planning", "completed_steps": []})
         task.pop("report", None)
         try:
             connection = await self.connect(task)
-            raw = await connection.call("binary_session", {})
-            self.record(task, "rea::binary_session", {}, raw, "reconnected")
-            task["plan"] = make_plan(self.catalog, task["request"], target, merged_context, self.search(task["request"], limit=40), expand_availability(raw), rea_result(raw).get("analysis_provider_candidates", []))
+            raw, availability, _ = await self.discover(task, connection)
+            task["plan"] = make_plan(self.catalog, task["request"], target, merged_context, self.search(task["request"], limit=40), availability, (rea_result(raw) or {}).get("analysis_provider_candidates", []))
             task["status"] = "ready"
             task.pop("reason", None)
         except Exception as error:

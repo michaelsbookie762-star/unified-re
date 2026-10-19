@@ -50,7 +50,7 @@ def main():
     write_json(ROOT / "SOURCES.lock.json", source_lock)
 
     day = datetime.now(timezone(timedelta(hours=8))).date().isoformat()
-    upstream_rows = "\n".join(f"| {key} | `{value['commit']}` | {value['license']} |" for key, value in catalog["sources"].items())
+    upstream_rows = "\n".join(f"| {key} | `{value.get('commit', value.get('version', 'unknown'))}` | {value['license']} |" for key, value in catalog["sources"].items())
     provider_rows = "\n".join(f"| {p['provider']['id']} | {p['availability']['status']} | {p['availability'].get('code')} |" for p in native)
     source_rows = "\n".join(f"| {name} | {value.get('status')} | {len(value.get('tools', []))} | {value.get('endpoint_tcp', '未探测/无独立端口')} | {value.get('tool_call_verified', False)} |" for name, value in discovery["sources"].items())
     audit = f"""# 只读审计与合并决策记录

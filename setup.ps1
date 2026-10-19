@@ -19,6 +19,13 @@ if (-not (Test-Path -LiteralPath $taskRea)) {
 if ((Get-Content -LiteralPath $taskRea -Raw | ConvertFrom-Json).version -ne '6.5.0') {
   throw 'REA version differs from the reviewed 6.5.0 contract; no files were replaced.'
 }
+$taskCloak = Join-Path $PSScriptRoot 'cloakbrowser'
+if (-not (Test-Path -LiteralPath (Join-Path $taskCloak 'node_modules'))) {
+  npm --prefix $taskCloak ci --ignore-scripts --no-audit --no-fund
+  if ($LASTEXITCODE -ne 0) { throw 'Pinned CloakBrowser/MCP dependency installation failed.' }
+}
+& node (Join-Path $taskCloak 'install.mjs')
+if ($LASTEXITCODE -ne 0) { throw 'Pinned public CloakBrowser installation failed.' }
 & $taskPython -X utf8 scripts/download_model.py
 if ($LASTEXITCODE -ne 0) { throw 'Public pinned model integrity/download failed.' }
 if (-not (Test-Path -LiteralPath 'backends.json')) {

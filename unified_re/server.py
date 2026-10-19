@@ -1,6 +1,7 @@
 """Project-local stdio MCP. Stdout is reserved for protocol frames."""
 from contextlib import asynccontextmanager
 from typing import Any
+import anyio
 
 from mcp.server import MCPServer
 
@@ -17,7 +18,9 @@ async def lifespan(server):
     try:
         yield engine
     finally:
-        await engine.close()
+        # EOF cancels the request nursery; owned backend cleanup must survive it.
+        with anyio.CancelScope(shield=True):
+            await engine.close()
 
 
 server = MCPServer("unified-re", version="0.1.0", lifespan=lifespan)
@@ -53,7 +56,7 @@ async def capability_search(query: str, limit: int = 12, kind: str | None = None
 @server.tool(structured_output=True)
 @guarded
 async def task_plan(request: str, target_path: str | None = None, context: dict | None = None) -> dict[str, Any]:
-    """检索、只读辨型、真实 REA 可用性检查及冲突裁决。context.permissions 需声明已获授权的 read_local；返回可审查分阶段计划或明确阻塞状态。"""
+    """检索、辨型、真实后端检查及冲突裁决。本地目标需 read_local；HTTP(S) URL 需 web_read，使用独立 CloakBrowser。返回分阶段计划或明确阻塞状态。"""
     return await engine.plan(request, target_path, context)
 
 
@@ -130,7 +133,7 @@ async def backend_status() -> dict[str, Any]:
     """区分审计快照、协议发现、实际调用与当前服务会话；快照不宣称实时在线。"""
     discovery = read_json(ROOT / "reports/discovery.json")
     sources = {key: {"audit_status": value.get("status"), "advertised_tool_count": len(value.get("tools", [])), "audit_tool_call_verified": value.get("tool_call_verified", False), "engine_status": value.get("engine_status", "unknown")} for key, value in discovery["sources"].items()}
-    return {"snapshot_observed_at": discovery["observed_at"], "sources": sources, "skipped": discovery["skipped"], "live_owned_sessions": [{"task_id": key, "alive": conn.alive, "source": "rea"} for key, conn in engine.connections.items()], "leases": engine.store.leases(), "warning": "Tool catalog and historical discovery do not prove a live analysis engine"}
+    return {"snapshot_observed_at": discovery["observed_at"], "sources": sources, "local_browser_contracts": "cloakbrowser/tool-contracts.json", "skipped": discovery["skipped"], "live_owned_sessions": [{"task_id": key, "alive": conn.alive, "source": engine.store.get(key).get("source", "rea")} for key, conn in engine.connections.items()], "leases": engine.store.leases(), "warning": "Tool catalog and historical discovery do not prove a live analysis engine or current browser readiness"}
 
 
 def main():
