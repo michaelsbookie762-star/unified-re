@@ -1,6 +1,6 @@
 ---
 name: unified-re
-description: 统一 REA 与 reverse-skill 的逆向分析调度。接收明确的本地目标，联合检索方法和工具，裁决配套关系、冲突与真实依赖，按阶段取证并保留任务状态。不用于普通源码开发或无关任务。
+description: 统一 REA 与 reverse-skill 的逆向分析及 CloakBrowser 授权网页观察。接收明确本地目标或 HTTP(S) URL，联合语义检索方法与工具，裁决冲突和真实依赖，按阶段取证并保留任务状态。不用于普通源码开发或未经规划的页面写操作。
 ---
 
 # 统一执行契约
